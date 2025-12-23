@@ -15,7 +15,7 @@ bundle exec jekyll serve --config _config.yml,_config.dev.yml
 ```
 
 GitHub Pages deployment
-- **Project site** (recommended for this repo name): `https://<org>.github.io/<repo>/` and set `_config.yml` `baseurl: "/<repo>"`.
-- **Org/user site** (clean root URL): move this site into a repo named `<org>.github.io` and set `_config.yml` `baseurl: ""`.
+- **Org/user site** (current setup): repo named `<org>.github.io`, deployed at `https://<org>.github.io/` with `_config.yml` `baseurl: ""`.
+- **Project site** (alternate): deploy at `https://<org>.github.io/<repo>/` with `_config.yml` `baseurl: "/<repo>"`.
 
 See `EDITING_GUIDE.md` for organizer-friendly editing notes.
