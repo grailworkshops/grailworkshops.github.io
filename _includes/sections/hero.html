@@ -8,10 +8,11 @@
     <p class="lead">{{ site.data.site.hero.lead }}</p>
     <div class="hero-actions">
       {% for cta in site.data.site.hero.ctas %}
-        {% assign href = cta.href %}
+        {% assign href = cta.href | default: "" %}
+        {% assign href_first = href | slice: 0, 1 %}
         {% if href contains "http://" or href contains "https://" or href contains "mailto:" %}
           <a class="btn {{ cta.style }}" href="{{ href }}" target="_blank" rel="noopener">{{ cta.label }}</a>
-        {% elsif href | slice: 0, 1 == "#" %}
+        {% elsif href_first == "#" %}
           <a class="btn {{ cta.style }}" href="{{ href }}">{{ cta.label }}</a>
         {% else %}
           <a class="btn {{ cta.style }}" href="{{ href | relative_url }}">{{ cta.label }}</a>
@@ -21,10 +22,11 @@
     <div class="hero-metrics">
       {% for metric in site.data.site.hero.metrics %}
         {% if metric.href %}
-          {% assign href = metric.href %}
+          {% assign href = metric.href | default: "" %}
+          {% assign href_first = href | slice: 0, 1 %}
           {% if href contains "http://" or href contains "https://" %}
             <a class="metric-card" href="{{ href }}" target="_blank" rel="noopener">
-          {% elsif href | slice: 0, 1 == "#" %}
+          {% elsif href_first == "#" %}
             <a class="metric-card" href="{{ href }}">
           {% else %}
             <a class="metric-card" href="{{ href | relative_url }}">
@@ -58,11 +60,9 @@
           <button class="flip-card" type="button" aria-label="{{ step.name }}: {{ step.detail }}">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <span>{{ step.name }}</span>
-                <strong>{{ step.key }}</strong>
+                <strong>{{ step.name | upcase }}</strong>
               </div>
               <div class="flip-card-back">
-                <span>{{ step.name }}</span>
                 <strong>{{ step.detail }}</strong>
               </div>
             </div>

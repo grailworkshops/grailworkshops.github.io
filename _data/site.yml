@@ -42,7 +42,7 @@ hero:
       text: "Jun 3-4, 2026"
       key: "workshop"
 loop:
-  title: "P ! R ! R ! V Loop"
+  title: "P-R-R-V Loop"
   description: "Plan tasks and tool use, retrieve candidates, rerank with grounded reasoning, then verify with calibrated evidence."
   steps:
     - name: "Plan"

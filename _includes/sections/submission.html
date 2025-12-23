@@ -27,7 +27,8 @@
       {% assign secondary_href = site.data.submission.portal.secondary_href %}
       {% if secondary_href contains "http://" or secondary_href contains "https://" %}
         <a class="btn ghost" href="{{ secondary_href }}" target="_blank" rel="noopener">{{ site.data.submission.portal.secondary_label }}</a>
-      {% elsif secondary_href | slice: 0, 1 == "#" %}
+      {% assign secondary_href_first = secondary_href | slice: 0, 1 %}
+      {% elsif secondary_href_first == "#" %}
         <a class="btn ghost" href="{{ secondary_href }}">{{ site.data.submission.portal.secondary_label }}</a>
       {% else %}
         <a class="btn ghost" href="{{ secondary_href | relative_url }}">{{ site.data.submission.portal.secondary_label }}</a>

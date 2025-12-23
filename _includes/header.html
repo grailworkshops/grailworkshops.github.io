@@ -14,11 +14,12 @@
     </a>
     <div class="nav-links" id="site-links">
       {% for item in site.data.navigation %}
-        {% assign href = item.href %}
+        {% assign href = item.href | default: "" %}
+        {% assign href_first = href | slice: 0, 1 %}
         {% if item.cta %}
           {% if href contains "http://" or href contains "https://" or href contains "mailto:" %}
             <a class="nav-cta" href="{{ href }}" target="_blank" rel="noopener">{{ item.label }}</a>
-          {% elsif href | slice: 0, 1 == "#" %}
+          {% elsif href_first == "#" %}
             <a class="nav-cta" href="{{ href }}">{{ item.label }}</a>
           {% else %}
             <a class="nav-cta" href="{{ href | relative_url }}">{{ item.label }}</a>
@@ -26,7 +27,7 @@
         {% else %}
           {% if href contains "http://" or href contains "https://" or href contains "mailto:" %}
             <a href="{{ href }}" target="_blank" rel="noopener">{{ item.label }}</a>
-          {% elsif href | slice: 0, 1 == "#" %}
+          {% elsif href_first == "#" %}
             <a href="{{ href }}">{{ item.label }}</a>
           {% else %}
             <a href="{{ href | relative_url }}">{{ item.label }}</a>
