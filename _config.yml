@@ -1,7 +1,7 @@
 title: "GRAIL-V at CVPR 2026"
 description: "Grounded Retrieval & Agentic Intelligence for Vision-Language."
-baseurl: ""
-url: ""
+baseurl: "/grail.github.io"
+url: "https://grails-ai.github.io"
 markdown: kramdown
 permalink: pretty
 theme: null
