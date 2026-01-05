@@ -237,7 +237,7 @@ body.no-scroll {
 
 .hero h1 {
   font-family: "Fraunces", serif;
-  font-size: clamp(2.4rem, 4vw, 3.6rem);
+  font-size: clamp(2.1rem, 3.6vw, 3.2rem);
   line-height: 1.1;
   margin: 16px 0 20px;
 }
