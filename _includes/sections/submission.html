@@ -1,16 +1,27 @@
 <section id="submission" class="section alt" data-animate>
   <div class="section-title">
-    <p class="eyebrow">{{ site.data.submission.eyebrow }}</p>
+    <!-- <p class="eyebrow">{{ site.data.submission.eyebrow }}</p> -->
     <h2>{{ site.data.submission.title }}</h2>
   </div>
   <div class="split">
     <div>
       <p>{{ site.data.submission.lead }}</p>
-      <ul class="checklist">
-        {% for item in site.data.submission.checklist %}
-          <li>{{ item }}</li>
-        {% endfor %}
-      </ul>
+      {% if include.mode == "summary" and site.data.submission.summary %}
+        <div class="callout">
+          <h3>{{ site.data.submission.summary.title }}</h3>
+          <ul>
+            {% for item in site.data.submission.summary.bullets %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% else %}
+        <ul class="checklist">
+          {% for item in site.data.submission.checklist %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
     </div>
     <div class="callout" id="submit">
       <h3>{{ site.data.submission.portal.title }}</h3>
@@ -25,17 +36,20 @@
       {% endif %}
 
       {% assign secondary_href = site.data.submission.portal.secondary_href %}
-      {% if secondary_href contains "http://" or secondary_href contains "https://" %}
-        <a class="btn ghost" href="{{ secondary_href }}" target="_blank" rel="noopener">{{ site.data.submission.portal.secondary_label }}</a>
-      {% assign secondary_href_first = secondary_href | slice: 0, 1 %}
-      {% elsif secondary_href_first == "#" %}
-        <a class="btn ghost" href="{{ secondary_href }}">{{ site.data.submission.portal.secondary_label }}</a>
-      {% else %}
-        <a class="btn ghost" href="{{ secondary_href | relative_url }}">{{ site.data.submission.portal.secondary_label }}</a>
+      {% assign secondary_label = site.data.submission.portal.secondary_label %}
+      {% if secondary_href and secondary_href != "" and secondary_label and secondary_label != "" %}
+        {% if secondary_href contains "http://" or secondary_href contains "https://" %}
+          <a class="btn ghost" href="{{ secondary_href }}" target="_blank" rel="noopener">{{ secondary_label }}</a>
+        {% assign secondary_href_first = secondary_href | slice: 0, 1 %}
+        {% elsif secondary_href_first == "#" %}
+          <a class="btn ghost" href="{{ secondary_href }}">{{ secondary_label }}</a>
+        {% else %}
+          <a class="btn ghost" href="{{ secondary_href | relative_url }}">{{ secondary_label }}</a>
+        {% endif %}
       {% endif %}
     </div>
   </div>
-  {% if site.data.submission.paper_types or site.data.submission.how_to_submit %}
+  {% if include.mode != "summary" and (site.data.submission.paper_types or site.data.submission.how_to_submit) %}
     <div class="grid submission-extras">
       {% if site.data.submission.paper_types %}
         <article class="submission-card">
@@ -65,12 +79,14 @@
       {% endif %}
     </div>
   {% endif %}
-  <div class="policy-grid">
-    {% for item in site.data.submission.policies %}
-      <div>
-        <h3>{{ item.title }}</h3>
-        <p>{{ item.description }}</p>
-      </div>
-    {% endfor %}
-  </div>
+  {% if include.mode != "summary" %}
+    <div class="policy-grid">
+      {% for item in site.data.submission.policies %}
+        <div>
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.description }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
 </section>

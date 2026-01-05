@@ -13,24 +13,36 @@
       </span>
     </a>
     <div class="nav-links" id="site-links">
+      {% assign current_url = page.url | default: "/" %}
       {% for item in site.data.navigation %}
         {% assign href = item.href | default: "" %}
         {% assign href_first = href | slice: 0, 1 %}
+        {% assign href_base = href | split: "#" | first %}
+        {% assign is_anchor = href contains "#" %}
+        {% assign is_external = href contains "http://" or href contains "https://" or href contains "mailto:" %}
+        {% assign is_active = false %}
+        {% if is_external == false and is_anchor == false and href_base == current_url %}
+          {% assign is_active = true %}
+        {% endif %}
         {% if item.cta %}
-          {% if href contains "http://" or href contains "https://" or href contains "mailto:" %}
-            <a class="nav-cta" href="{{ href }}" target="_blank" rel="noopener">{{ item.label }}</a>
+          {% if is_external %}
+            <a class="nav-cta" href="{{ href }}">{{ item.label }}</a>
           {% elsif href_first == "#" %}
             <a class="nav-cta" href="{{ href }}">{{ item.label }}</a>
           {% else %}
             <a class="nav-cta" href="{{ href | relative_url }}">{{ item.label }}</a>
           {% endif %}
         {% else %}
-          {% if href contains "http://" or href contains "https://" or href contains "mailto:" %}
-            <a href="{{ href }}" target="_blank" rel="noopener">{{ item.label }}</a>
+          {% assign active_class = "" %}
+          {% if is_active %}
+            {% assign active_class = "is-active" %}
+          {% endif %}
+          {% if is_external %}
+            <a class="{{ active_class }}" href="{{ href }}">{{ item.label }}</a>
           {% elsif href_first == "#" %}
-            <a href="{{ href }}">{{ item.label }}</a>
+            <a class="{{ active_class }}" href="{{ href }}">{{ item.label }}</a>
           {% else %}
-            <a href="{{ href | relative_url }}">{{ item.label }}</a>
+            <a class="{{ active_class }}" href="{{ href | relative_url }}">{{ item.label }}</a>
           {% endif %}
         {% endif %}
       {% endfor %}

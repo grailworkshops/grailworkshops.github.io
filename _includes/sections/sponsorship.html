@@ -1,6 +1,13 @@
+{% assign show_eyebrow = include.show_eyebrow %}
+{% if show_eyebrow == nil %}
+  {% assign show_eyebrow = true %}
+{% endif %}
+
 <section id="sponsorship" class="section" data-animate>
   <div class="section-title">
-    <p class="eyebrow">{{ site.data.sponsorship.eyebrow }}</p>
+    {% if show_eyebrow %}
+      <p class="eyebrow">{{ site.data.sponsorship.eyebrow }}</p>
+    {% endif %}
     <h2>{{ site.data.sponsorship.title }}</h2>
   </div>
   <div class="split">

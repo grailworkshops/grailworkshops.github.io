@@ -2,14 +2,14 @@ eyebrow: "Why now"
 title: "Grounded evidence is the missing piece for agentic vision"
 paragraphs:
   - "Vision-language agents increasingly rely on a loop of plan, retrieve, rerank, and verify before acting. But how we measure evidence grounding, calibration, and end-to-end efficiency is still fragmented across communities."
-  - "GRAIL-V brings together CV, IR, NLP, HCI, and systems researchers to share evaluation practices and push toward deployable, accountable agentic vision systems with region/page/moment-level evidence."
+  - "GRAIL-V brings together CV, IR, NLP, HCI, and systems researchers and practitioners working on evidence-centric retrieval and verification for deployable agentic systems."
 callout:
-  title: "Focus areas"
+  title: "Why submit or attend"
   items:
-    - "Hybrid retrieval across structured and unstructured sources."
-    - "Grounded evaluation beyond Recall@K with provenance and calibration."
-    - "Efficiency and robustness under real deployment constraints."
-    - "Reproducible artifacts and lightweight shared harnesses."
+    - "Get feedback on grounded retrieval, reranking, and verification."
+    - "Share real-world evaluations, demos, and deployment lessons."
+    - "Connect with researchers building agentic VLM pipelines."
+    - "Help shape community benchmarks and best practices."
 tracks:
   primary_label: "Primary track"
   primary: "Vision, language, and reasoning."

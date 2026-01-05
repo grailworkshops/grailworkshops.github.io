@@ -1,7 +1,7 @@
 <section id="organizers" class="section" data-animate>
   <div class="section-title">
-    <p class="eyebrow">Organizers</p>
-    <h2>Cross-community leadership spanning CV, IR, NLP, HCI, and systems</h2>
+    <!-- <p class="eyebrow">Organizers</p> -->
+    <h2>Workshop organizers</h2>
   </div>
   <div class="grid organizers">
     {% for organizer in site.data.organizers %}
@@ -32,7 +32,9 @@
           <h3>{{ organizer.name }}</h3>
         {% endif %}
         <p>{{ organizer.org }}</p>
-        <span>{{ organizer.role }}</span>
+        {% if organizer.bio and organizer.bio != "" %}
+          <span>{{ organizer.bio }}</span>
+        {% endif %}
         {% include profile-icons.html links=organizer.links %}
       </article>
     {% endfor %}

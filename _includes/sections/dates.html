@@ -3,8 +3,9 @@
     <p class="eyebrow">Important dates</p>
     <h2>Timeline (Anywhere on Earth)</h2>
   </div>
+  {% assign public_dates = site.data.dates | where_exp: "d", "d.internal != true" %}
   <div class="timeline">
-    {% for item in site.data.dates %}
+    {% for item in public_dates %}
       <div class="timeline-item">
         <span class="date">{{ item.date }}</span>
         <div>

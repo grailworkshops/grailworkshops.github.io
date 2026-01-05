@@ -3,16 +3,27 @@
     <p class="eyebrow">Topics of interest</p>
     <h2>Research that advances grounded, efficient, and safe agentic pipelines</h2>
   </div>
-  <div class="grid cards">
-    {% for topic in site.data.topics %}
-      <article>
-        <h3>{{ topic.title }}</h3>
-        <ul>
-          {% for item in topic.items %}
-            <li>{{ item }}</li>
-          {% endfor %}
-        </ul>
-      </article>
-    {% endfor %}
-  </div>
+  {% if include.mode == "summary" %}
+    <div class="topic-tags">
+      {% for tag in site.data.topic_tags %}
+        <span class="topic-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    <div class="topic-actions">
+      <a class="btn ghost" href="{{ '/cfp/#topics' | relative_url }}">View all topics</a>
+    </div>
+  {% else %}
+    <div class="grid cards">
+      {% for topic in site.data.topics %}
+        <article>
+          <h3>{{ topic.title }}</h3>
+          <ul>
+            {% for item in topic.items %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </article>
+      {% endfor %}
+    </div>
+  {% endif %}
 </section>
