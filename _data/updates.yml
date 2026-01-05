@@ -1,18 +1,19 @@
 - date: "2025-12-22"
   title: "Workshop accepted at CVPR 2026"
   description: "GRAIL-V has been accepted as a CVPR 2026 workshop in Denver, USA."
-  link:
-    label: "Read proposal"
-    href: "/files/GRAIL_WORKSHOP_CVPR_Accepted.pdf"
+  link: null
+  publish: true
 - date: "2026-01-06"
   title: "Call for Papers opens"
   description: "Submission instructions and OpenReview link go live (AoE)."
   link:
     label: "Call for Papers"
     href: "/cfp/"
+  publish: false
 - date: "2026-03-05"
   title: "Paper submission deadline"
   description: "Submit your paper on OpenReview by 23:59 AoE."
   link:
     label: "Submit"
     href: "/cfp/#submit"
+  publish: false

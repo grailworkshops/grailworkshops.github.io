@@ -1,7 +1,22 @@
+{% assign show_eyebrow = include.show_eyebrow %}
+{% if show_eyebrow == nil %}
+  {% assign show_eyebrow = false %}
+{% endif %}
+{% assign show_lead = include.show_lead %}
+{% if show_lead == nil %}
+  {% assign show_lead = false %}
+{% endif %}
+{% assign title = include.title | default: site.data.venue.title %}
+
 <section id="venue" class="section" data-animate>
   <div class="section-title">
-    <p class="eyebrow">{{ site.data.venue.eyebrow }}</p>
-    <h2>{{ site.data.venue.title }}</h2>
+    {% if show_eyebrow %}
+      <p class="eyebrow">{{ site.data.venue.eyebrow }}</p>
+    {% endif %}
+    <h2>{{ title }}</h2>
+    {% if show_lead and site.data.venue.lead %}
+      <p class="lead">{{ site.data.venue.lead }}</p>
+    {% endif %}
   </div>
   <div class="grid venue">
     {% for item in site.data.venue.items %}

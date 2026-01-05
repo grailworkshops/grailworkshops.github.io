@@ -7,17 +7,16 @@ permalink: /cfp/
 
 <section class="section" data-animate>
   <div class="section-title">
-    <p class="eyebrow">Call for Papers</p>
-    <h2>Submit to GRAIL-V</h2>
+    <h2>Call for Papers</h2>
   </div>
   <p class="lead">
-    We welcome papers and demos on grounded retrieval, reranking, and verification for agentic vision-language systems.
-    If your work reports evidence provenance (region/page/moment), calibration, and deployment constraints, it’s a great fit.
+    We invite papers and demos on grounded multimodal retrieval, reranking, and verification for deployable vision-language systems.
+    If your work shows evidence provenance (region/page/moment), calibration/abstention, efficiency, or real-world robustness, it’s in scope.
+    Please follow the <a href="https://cvpr.thecvf.com/Conferences/2026/AuthorGuidelines" target="_blank" rel="noopener">CVPR 2026 author guidelines</a>.
   </p>
   <div class="hero-actions">
-    <a class="btn primary" href="{{ '/cfp/#submit' | relative_url }}">Submit</a>
-    <a class="btn ghost" href="{{ '/cfp/#dates' | relative_url }}">View dates</a>
-    <a class="btn ghost" href="{{ '/files/GRAIL_WORKSHOP_CVPR_Accepted.pdf' | relative_url }}">Workshop proposal</a>
+    <a class="btn primary" href="#submit">Submit</a>
+    <a class="btn ghost" href="#dates">View dates</a>
   </div>
   <div class="quick-links" aria-label="Quick links">
     <a class="chip" href="#submission">Submission</a>

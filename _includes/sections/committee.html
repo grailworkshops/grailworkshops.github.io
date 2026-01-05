@@ -1,23 +1,32 @@
 <section id="committee" class="section alt" data-animate>
   <div class="section-title">
-    <p class="eyebrow">Program committee</p>
-    <h2>Seed list (expanding to 60-75 members)</h2>
+    <!-- <p class="eyebrow">Program committee</p> -->
+    <h2>Reviewers</h2>
   </div>
-  <details class="committee-details">
-    <summary>View seed list</summary>
-    <div class="committee-list">
-      {% for member in site.data.committee %}
-        <div class="committee-member">
-          <div class="committee-member-top">
-            <strong>{{ member.name }}</strong>
-            <span class="committee-affiliation">{{ member.affiliation }}</span>
-          </div>
-          {% if member.focus %}
-            <span class="committee-focus">{{ member.focus }}</span>
-          {% endif %}
-          {% include profile-icons.html links=member.links %}
-        </div>
-      {% endfor %}
+  {% assign published_committee = site.data.committee | where_exp: "m", "m.publish == true" %}
+  {% if published_committee.size == 0 %}
+    <div class="callout">
+      <h3>Program committee to be announced</h3>
+      <p>We will post the confirmed PC members here. Watch the Updates page for announcements.</p>
+      <a class="btn ghost" href="{{ '/updates/' | relative_url }}">See updates</a>
     </div>
-  </details>
+  {% else %}
+    <details class="committee-details">
+      <summary>View committee</summary>
+      <div class="committee-list">
+        {% for member in published_committee %}
+          <div class="committee-member">
+            <div class="committee-member-top">
+              <strong>{{ member.name }}</strong>
+              <span class="committee-affiliation">{{ member.affiliation }}</span>
+            </div>
+            {% if member.focus %}
+              <span class="committee-focus">{{ member.focus }}</span>
+            {% endif %}
+            {% include profile-icons.html links=member.links %}
+          </div>
+        {% endfor %}
+      </div>
+    </details>
+  {% endif %}
 </section>
