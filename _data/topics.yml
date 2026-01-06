@@ -1,25 +1,30 @@
 - title: "Heterogeneous and multimodal retrieval"
   items:
     - "Unified visual and text search across images, video, charts, documents, and UI."
-    - "Hybrid dense and lexical retrieval, multilingual search, long-context documents."
+    - "Hybrid dense and lexical retrieval, multilingual search, and long-context documents."
     - "Region, page, and moment retrieval at fine granularity."
+    - "Retrieval over structured and unstructured sources, including tables and knowledge graphs."
 - title: "Multimodal reranking"
   items:
     - "Cross-encoders and late-interaction variants for grounded selection."
-    - "Throughput and latency trade-offs, distillation, caching, streaming."
+    - "Throughput and latency trade-offs with distillation, caching, and streaming."
     - "Calibration and abstention at top-k for agent handoffs."
+    - "Evidence-aware reranking with citations and provenance."
 - title: "Agentic planning and tool use"
   items:
     - "Query reformulation, routing, and tool composition across modalities."
     - "OCR-free parsing, layout and chart tools, SQL and code tools."
     - "Safety-conscious tool use with guardrails and recovery."
+    - "Memory and state tracking for multi-step agentic workflows."
 - title: "Grounding, provenance, and reliability"
   items:
     - "Evidence overlays, citation fidelity, and structured alignment."
     - "Verification protocols that resist leakage and prompt injection."
     - "Robustness to UI drift, style shifts, and format changes."
+    - "Faithfulness auditing and evidence-backed explanations."
 - title: "Data enrichment and evaluation"
   items:
     - "Layout and structure extraction, temporal alignment."
     - "Reproducible harnesses, prompts, traces, and leaderboards."
     - "Shared reporting practices for cross-domain benchmarks."
+    - "Efficiency metrics: latency, memory, energy, and cost."

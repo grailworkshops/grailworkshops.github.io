@@ -9,4 +9,5 @@ permalink: /speakers/
 {% include sections/speakers.html %}
 {% include sections/organizers.html %}
 {% include sections/committee.html %}
+{% include sections/reviewers.html %}
 {% include sections/contact.html %}

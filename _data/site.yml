@@ -8,8 +8,9 @@ brand:
 seo:
   og_image: "/assets/og-image.png"
 hero:
-  eyebrow: "Grounded Retrieval and Agentic Intelligence for Vision-Language"
-  title: "Grounded evidence for vision-language agents"
+  # eyebrow: "Grounded Retrieval and Agentic Intelligence for Vision-Language"
+  # title: "Grounded evidence for vision-language agents"
+  title: "Grounded Retrieval and Agentic Intelligence for Vision-Language"
   highlight: "plan > retrieve > rerank > verify"
   lead: "A CVPR 2026 workshop for researchers and practitioners building grounded multimodal retrieval, reranking, and verification systems that can be deployed with confidence."
   ctas:

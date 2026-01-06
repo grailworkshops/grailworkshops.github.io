@@ -1,20 +1,19 @@
-<section id="committee" class="section alt" data-animate>
+<section id="reviewers" class="section" data-animate>
   <div class="section-title">
-    <!-- <p class="eyebrow">Program committee</p> -->
-    <h2>Program committee</h2>
+    <h2>Reviewers</h2>
   </div>
-  {% assign published_committee = site.data.committee | where_exp: "m", "m.publish == true" %}
-  {% if published_committee.size == 0 %}
+  {% assign published_reviewers = site.data.reviewers | where_exp: "m", "m.publish == true" %}
+  {% if published_reviewers.size == 0 %}
     <div class="callout">
-      <h3>Program committee to be announced</h3>
-      <p>We will post the confirmed PC members here. Watch the Updates page for announcements.</p>
+      <h3>Reviewers to be announced</h3>
+      <p>We will share the reviewer list once confirmations are complete. Watch the Updates page for announcements.</p>
       <a class="btn ghost" href="{{ '/updates/' | relative_url }}">See updates</a>
     </div>
   {% else %}
     <details class="committee-details">
-      <summary>View committee</summary>
+      <summary>View reviewers</summary>
       <div class="committee-list">
-        {% for member in published_committee %}
+        {% for member in published_reviewers %}
           <div class="committee-member">
             <div class="committee-member-top">
               <strong>{{ member.name }}</strong>

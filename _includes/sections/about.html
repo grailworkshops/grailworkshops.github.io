@@ -18,10 +18,12 @@
       </ul>
     </div>
   </div>
-  <div class="tracks">
-    <span class="tag">{{ site.data.about.tracks.primary_label }}</span>
-    <p>{{ site.data.about.tracks.primary }}</p>
-    <span class="tag">{{ site.data.about.tracks.secondary_label }}</span>
-    <p>{{ site.data.about.tracks.secondary }}</p>
-  </div>
+  {% unless include.hide_tracks %}
+    <div class="tracks">
+      <span class="tag">{{ site.data.about.tracks.primary_label }}</span>
+      <p>{{ site.data.about.tracks.primary }}</p>
+      <span class="tag">{{ site.data.about.tracks.secondary_label }}</span>
+      <p>{{ site.data.about.tracks.secondary }}</p>
+    </div>
+  {% endunless %}
 </section>

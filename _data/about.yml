@@ -11,7 +11,17 @@ callout:
     - "Connect with researchers building agentic VLM pipelines."
     - "Help shape community benchmarks and best practices."
 tracks:
-  primary_label: "Primary track"
+  primary_label: "Primary Track"
   primary: "Vision, language, and reasoning."
-  secondary_label: "Secondary tracks"
+  primary_tags:
+    - "Vision-language models"
+    - "Grounded reasoning"
+    - "Multimodal agents"
+    - "Agentic memory"
+  secondary_label: "Secondary Track"
   secondary: "Multimodal learning, recognition (categorization, detection, retrieval), vision applications and systems, document analysis and understanding, foundation models."
+  secondary_tags:
+    - "Detection & retrieval"
+    - "Video understanding"
+    - "Document & chart analysis"
+    - "Foundation models"
