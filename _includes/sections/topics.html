@@ -1,9 +1,9 @@
 <section id="topics" class="section alt" data-animate>
   <div class="section-title">
-    <p class="eyebrow">Topics of interest</p>
     {% if include.mode == "summary" %}
       <h2>Focus areas at a glance</h2>
     {% else %}
+      <p class="eyebrow">Topics of interest</p>
       <h2>Research that advances grounded, efficient, and safe vision-language systems</h2>
     {% endif %}
   </div>
@@ -47,7 +47,7 @@
       {% endfor %}
     </div>
     <div class="topic-actions">
-      <a class="btn ghost" href="{{ '/cfp/#topics' | relative_url }}">View all topics</a>
+      <a class="btn ghost" href="{{ '/cfp/#topics' | relative_url }}">Topics of interest</a>
     </div>
   {% else %}
     <div class="grid cards">

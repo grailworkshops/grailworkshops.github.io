@@ -15,7 +15,7 @@
   focus: "Multimodal generation, agentic reasoning"
   bio: "Researches multimodal language/vision agents, grounded reasoning, and controllable generation for real-world tasks."
   initials: "MB"
-  publish: true
+  publish: false
   profile: ""
   photo: "/assets/people/mohitbansal2025.png"
   links:
@@ -27,7 +27,7 @@
   focus: "Knowledge graphs, enterprise retrieval"
   bio: "Builds robust enterprise retrieval systems combining knowledge graphs and multimodal signals for production-scale applications."
   initials: "YL"
-  publish: true
+  publish: false
   profile: ""
   photo: "/assets/people/yunyaoli.jpeg"
   links:
@@ -51,7 +51,7 @@
   focus: "Dense embeddings, multimodal search"
   bio: "Created Sentence Transformers and advances dense embeddings and late-interaction models for multilingual and multimodal search."
   initials: "NR"
-  publish: true
+  publish: false
   profile: ""
   photo: "/assets/people/nils_reimers_22_415x415.jpg"
   links:
@@ -63,7 +63,7 @@
   focus: "Evaluation methodology, multilingual resources"
   bio: "Leads research on evaluation methodology, multilingual resources, and grounded NLP systems with reproducible benchmarks."
   initials: "IG"
-  publish: true
+  publish: false
   profile: ""
   photo: "/assets/people/Iryna-Gurevych_Ruediger-Dunker_2022_1zu1_415x415.png"
   links:
@@ -75,13 +75,20 @@
   focus: "Efficient retrieval, multi-hop QA"
   bio: "Works on efficient retrieval and multi-hop QA, designing retrieval-augmented architectures that balance latency and quality."
   initials: "SY"
-  publish: true
+  publish: false
   profile: ""
   photo: "/assets/people/Scott%20Yih_FB%20Small.jpg"
   links:
     home: "https://scottyih.org/"
     scholar: "https://scholar.google.com/citations?hl=en&user=8rDNIMsAAAAJ"
     linkedin: "https://www.linkedin.com/in/scottyih/"
+
+- type: "panel"
+  name: "More to be announced"
+  org: "Leaders from Industry & Academia"
+  focus: ""
+  publish: true
+
 - type: "panel"
   name: "Panel"
   org: "From Retrieval to Action: What Should Agentic Vision Systems Verify?"

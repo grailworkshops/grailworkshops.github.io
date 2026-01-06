@@ -1,7 +1,7 @@
 announcement:
   pill: "Accepted"
   text: "CVPR 2026 Workshop in Denver, USA. CFP opens Jan 6, 2026 (AoE)."
-contact_email: "amit.h.agarwal@oracle.com"
+contact_email: "grailworkshops@googlegroups.com"
 brand:
   name: "GRAIL-V"
   subtitle: "CVPR 2026"
@@ -21,7 +21,7 @@ hero:
       href: "/cfp/#dates"
       style: "ghost"
     - label: "Contact"
-      href: "mailto:amit.h.agarwal@oracle.com?subject=GRAIL-V%20interest"
+      href: "mailto:grailworkshops@googlegroups.com?subject=GRAIL-V%20interest"
       style: "ghost"
   metrics:
     - value: "Who"
