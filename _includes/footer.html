@@ -1,10 +1,38 @@
 <footer class="footer">
-  <div>
-    <strong>{{ site.title }}</strong>
-    <p>Grounded Retrieval and Agentic Intelligence for Vision-Language.</p>
-  </div>
-  <div>
-    <span>Follow CVPR 2026 policies and code of conduct.</span>
-    <span>Updates will be posted here as the CFP opens.</span>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <strong>{{ site.title }}</strong>
+      <p>Grounded Retrieval and Agentic Intelligence for Vision-Language.</p>
+      <p class="footer-contact">
+        Contact:
+        <a href="mailto:{{ site.data.site.contact_email }}">{{ site.data.site.contact_email }}</a>
+      </p>
+    </div>
+    <div class="footer-links">
+      <div>
+        <strong>Resources</strong>
+        <ul>
+          <li><a href="{{ '/cfp/' | relative_url }}">Call for papers</a></li>
+          <li><a href="{{ '/cfp/#dates' | relative_url }}">Important dates</a></li>
+          <li><a href="{{ '/cfp/#submit' | relative_url }}">Submission portal</a></li>
+          <li><a href="{{ '/updates/' | relative_url }}">Updates</a></li>
+        </ul>
+      </div>
+      <div>
+        <strong>Policies</strong>
+        <ul>
+          <li>
+            <a href="https://cvpr.thecvf.com/Conferences/2026/AuthorGuidelines" target="_blank" rel="noopener">
+              CVPR 2026 author guidelines
+            </a>
+          </li>
+          <li>
+            <a href="https://cvpr.thecvf.com/Conferences/2026" target="_blank" rel="noopener">
+              CVPR 2026 conference site
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </footer>

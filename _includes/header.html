@@ -1,5 +1,7 @@
 <div class="announcement">
-  <span class="pill">{{ site.data.site.announcement.pill }}</span>
+  {% if site.data.site.announcement.pill and site.data.site.announcement.pill != "" %}
+    <span class="pill">{{ site.data.site.announcement.pill }}</span>
+  {% endif %}
   <span>{{ site.data.site.announcement.text }}</span>
 </div>
 
