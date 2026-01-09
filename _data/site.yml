@@ -1,6 +1,6 @@
 announcement:
   pill: ""
-  text: "CVPR 2026 Workshop in Denver, USA. CFP opens Jan 6, 2026 (AoE)."
+  text: "CVPR 2026 Workshop in Denver, USA. CFP is now OPEN!"
 contact_email: "grailworkshops@googlegroups.com"
 brand:
   name: "GRAIL-V"
@@ -49,13 +49,13 @@ loop:
   steps:
     - name: "Plan"
       key: "P"
-      detail: "Agentic routing"
+      detail: "Agentic Planning & Routing across generative multimodal models"
     - name: "Retrieve"
       key: "R"
-      detail: "Hybrid search"
-    - name: "Rerank"
+      detail: "Multimodal Retrieval and Reranking across structured and unstructured knowledge sources"
+    - name: "Reason"
       key: "R"
-      detail: "Grounded scoring"
+      detail: "Grounded multimodal reasoning using tool-use, augemented generations, generative editing, and temporal video orchestration"
     - name: "Verify"
       key: "V"
-      detail: "Evidence fidelity"
+      detail: "Calibrated verification via citation provenance, metric design, and rigorous benchmark curation"

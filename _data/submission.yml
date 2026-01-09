@@ -6,7 +6,7 @@ summary:
   bullets:
     - "CVPR format, double-blind, up to 8 pages (references excluded)."
     - "Grounded evidence + efficiency metrics strongly encouraged."
-    - "OpenReview link posted when the CFP opens."
+    - "Submit via OpenReview."
 checklist:
   - "Format: CVPR template, up to 8 pages (references excluded)."
   - "Review: double-blind on OpenReview with 3 reviews + AC oversight."
@@ -29,14 +29,14 @@ how_to_submit:
   - title: "Include artifacts (encouraged)"
     description: "Link code/data/models with licenses and provenance."
   - title: "Submit on OpenReview"
-    description: "Use the workshop forum (link posted when CFP opens)."
+    description: "Use the workshop OpenReview forum."
   - title: "Present at the workshop"
     description: "Camera-ready after reviews; at least one author presents in person per CVPR policy."
 portal:
   title: "Submission portal"
-  description: "The OpenReview forum link will appear here when the CFP opens."
-  primary_label: "OpenReview (TBA)"
-  primary_href: "#"
+  description: "Submit your paper via the OpenReview workshop forum."
+  primary_label: "OpenReview submission"
+  primary_href: "https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/GRAIL-V"
   secondary_label: ""
   secondary_href: ""
 policies:

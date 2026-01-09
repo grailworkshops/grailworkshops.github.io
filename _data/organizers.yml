@@ -78,13 +78,3 @@
     home: ""
     scholar: "https://scholar.google.com/citations?hl=en&user=R3X_R9UAAAAJ"
     linkedin: "https://www.linkedin.com/in/hitesh-patel-63ba9210a/"
-- name: "Karan Dua"
-  org: "Oracle"
-  bio: "Builds evaluation and benchmarking pipelines for genai systems, with a focus on reliable synthetic data generation."
-  role: ""
-  profile: ""
-  photo: "/assets/people/karan_dua.jpeg"
-  links:
-    home: ""
-    scholar: ""
-    linkedin: "https://www.linkedin.com/in/karandua93/"

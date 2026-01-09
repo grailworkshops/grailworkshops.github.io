@@ -4,12 +4,12 @@
   link: null
   publish: true
 - date: "2026-01-06"
-  title: "Call for Papers opens"
-  description: "Submission instructions and OpenReview link go live (AoE)."
+  title: "OpenReview submissions are live"
+  description: "Submit your paper via the GRAIL-V OpenReview forum."
   link:
-    label: "Call for Papers"
-    href: "/cfp/"
-  publish: false
+    label: "OpenReview"
+    href: "https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/GRAIL-V"
+  publish: true
 - date: "2026-03-05"
   title: "Paper submission deadline"
   description: "Submit your paper on OpenReview by 23:59 AoE."

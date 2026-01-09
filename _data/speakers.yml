@@ -15,7 +15,7 @@
   focus: "Multimodal generation, agentic reasoning"
   bio: "Researches multimodal language/vision agents, grounded reasoning, and controllable generation for real-world tasks."
   initials: "MB"
-  publish: false
+  publish: true
   profile: ""
   photo: "/assets/people/mohitbansal2025.png"
   links:

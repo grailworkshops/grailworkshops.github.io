@@ -11,11 +11,24 @@
     linkedin: "https://www.linkedin.com/in/hitesh-patel-63ba9210a/"
     scholar: "https://scholar.google.com/citations?hl=en&user=R3X_R9UAAAAJ"
 - name: "Karan Dua"
-  affiliation: "Oracle"
-  focus: "Benchmarking and Evaluation"
+  affiliation: ""
+  focus: "Expertise in scaling multimodal data pipelines and synthetic generation for generative model training. Advances the field through the design of calibrated metrics and comprehensive benchmarking for generative AI."
+  # "Works on large scale data curation and synthetic data generation for training multimodal generative models along with evaluation and benchmarking of generative AI systems."
+  # "Evaluation and benchmarking for genai systems; reliable synthetic data generation."
+  photo: "/assets/people/karan_dua.jpeg"
+  publish: true
   links:
     linkedin: "https://www.linkedin.com/in/karandua93/"
     scholar: "https://scholar.google.com/citations?user=vy1UejMAAAAJ&hl=en&oi=ao"
+- name: "Hansa Meghwani"
+  affiliation: ""
+  bio: "Holds an MSc from LJMU, UK. Specializes in the architecture of enterprise-grade RAG and agentic workflows with a focus on attribution. Expertise spans the rigorous evaluation of multilingual LLMs and VLMs."
+  # "Holds Master's from LJMU, UK. Specializes in enterprise RAG and agentic applications with attribution, with expertise in evaluating LLMs, multilingual LLMs, and VLMs."
+  photo: "/assets/people/hansa.jpg"
+  publish: true
+  links:
+    linkedin: "https://www.linkedin.com/in/hansa-meghwani-b5397414b/"
+    scholar: "https://scholar.google.com/citations?user=hkYqvJ8AAAAJ&hl=en"
 - name: "Olena Burda-Lassen"
   affiliation: "Sonepar / Taras Shevchenko Univ. of Kyiv"
   focus: "Multimodal & Responsible AI"
@@ -23,8 +36,12 @@
     linkedin: "https://www.linkedin.com/in/olena-burda-lassen-ph-d-7b99122/"
     scholar: "https://scholar.google.com/citations?user=5OtxMQ4AAAAJ"
 - name: "Meizhu Liu"
-  affiliation: "Oracle / University of Florida"
-  focus: "Unstructured Retrieval"
+  affiliation: ""
+  focus: "Multimodal retrieval and image-editing GenAI tools."
+  bio: "Holds a PhD from the University of Florida. Specializes in the development of multimodal retrieval architectures and generative tools for image editing. Over 70+ publications in top-tier conferences."
+  # "Holds PhD from University of Florida. Builds multimodal retrieval and image-editing GenAI tools, with over 70+ publications in top conferences."
+  photo: "/assets/people/Meizhu_profile.jpeg"
+  publish: true
   links:
     linkedin: "https://www.linkedin.com/in/meizhu-liu-b4324410/"
     scholar: "https://scholar.google.com/citations?user=8MUrFiAAAAAJ&hl=en&oi=ao"
@@ -52,13 +69,29 @@
   links:
     linkedin: "https://www.linkedin.com/in/marcelamedicinaf/"
 - name: "Michael Avendi"
-  affiliation: "Oracle / UC Irvine"
-  focus: "Multimodal LLMs"
+  affiliation: ""
+  focus: "Generative AI, vision-language and action models, video understanding."
+  bio: "Holds a PhD from UC Irvine. Focuses on generative AI, vision-language-action models, and robotics learning to bridge perception and physical autonomy."
+  # "Holds PhD from UC Irvine; works on generative AI, vision-language/action models, computer vision, and robotics learning."
+  photo: "/assets/people/ma.png"
+  publish: true
   links:
     linkedin: "https://www.linkedin.com/in/mravendi/"
+- name: "Matthew Rowe"
+  affiliation: ""
+  focus: "Entity-centric NLP, knowledge graphs, and information retrieval."
+  bio: "Researches multimodal and hybrid search with a focus on enterprise-scale RAG. Specializes in architecting retrieval systems for high-throughput production deployments."
+  # "Researches on Multimodal and Hybrid search with specialization in Multimodal RAG at scale for enterprise scale deployments."
+  photo: "/assets/people/mrowe_younger_2018.jpg"
+  publish: true
+  links:
+    linkedin: "https://www.linkedin.com/in/matthew-rowe-518aa13/"
 - name: "Yassi Abbasi"
-  affiliation: "Oracle / USC"
-  focus: "Information Retrieval"
+  affiliation: ""
+  focus: "Holds a PhD from USC. Specializes in multimodal AI with an emphasis on image-text representation learning, generative modeling, and the design of robust evaluation metrics."
+  # "Holds PhD from USC. She specializes in multimodal AI, focused on evaluation metrics and image generation."
+  photo: "/assets/people/yassi.png"
+  publish: true
   links:
     linkedin: "https://www.linkedin.com/in/yassi-abbasi-19aa0916/"
 - name: "Haodong Duan"

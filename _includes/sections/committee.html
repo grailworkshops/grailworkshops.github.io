@@ -1,7 +1,7 @@
 <section id="committee" class="section alt" data-animate>
   <div class="section-title">
     <!-- <p class="eyebrow">Program committee</p> -->
-    <h2>Program committee</h2>
+    <h2>Program Committee</h2>
   </div>
   {% assign published_committee = site.data.committee | where_exp: "m", "m.publish == true" %}
   {% if published_committee.size == 0 %}
@@ -11,22 +11,45 @@
       <a class="btn ghost" href="{{ '/updates/' | relative_url }}">See updates</a>
     </div>
   {% else %}
-    <details class="committee-details">
-      <summary>View committee</summary>
-      <div class="committee-list">
-        {% for member in published_committee %}
-          <div class="committee-member">
-            <div class="committee-member-top">
-              <strong>{{ member.name }}</strong>
-              <span class="committee-affiliation">{{ member.affiliation }}</span>
-            </div>
-            {% if member.focus %}
-              <span class="committee-focus">{{ member.focus }}</span>
+    <div class="grid organizers committee-grid">
+      {% for member in published_committee %}
+        <article>
+          {% if member.photo and member.photo != "" %}
+            <img class="avatar-photo" src="{{ member.photo | relative_url }}" alt="{{ member.name }}" />
+          {% else %}
+            {% assign name_parts = member.name | split: " " %}
+            {% assign first_initial = name_parts[0] | slice: 0, 1 %}
+            {% assign last_initial = name_parts | last | slice: 0, 1 %}
+            <div class="avatar">{{ first_initial }}{{ last_initial }}</div>
+          {% endif %}
+          {% assign profile_url = member.profile %}
+          {% if profile_url == nil or profile_url == "" %}
+            {% if member.links %}
+              {% if member.links.home and member.links.home != "" %}
+                {% assign profile_url = member.links.home %}
+              {% elsif member.links.scholar and member.links.scholar != "" %}
+                {% assign profile_url = member.links.scholar %}
+              {% elsif member.links.linkedin and member.links.linkedin != "" %}
+                {% assign profile_url = member.links.linkedin %}
+              {% endif %}
             {% endif %}
-            {% include profile-icons.html links=member.links %}
-          </div>
-        {% endfor %}
-      </div>
-    </details>
+          {% endif %}
+          {% if profile_url and profile_url != "" %}
+            <h3><a class="profile-link" href="{{ profile_url }}" target="_blank" rel="noopener">{{ member.name }}</a></h3>
+          {% else %}
+            <h3>{{ member.name }}</h3>
+          {% endif %}
+          {% if member.affiliation %}
+            <p>{{ member.affiliation }}</p>
+          {% endif %}
+          {% if member.bio and member.bio != "" %}
+            <span>{{ member.bio }}</span>
+          {% elsif member.focus %}
+            <span>{{ member.focus }}</span>
+          {% endif %}
+          {% include profile-icons.html links=member.links %}
+        </article>
+      {% endfor %}
+    </div>
   {% endif %}
 </section>
