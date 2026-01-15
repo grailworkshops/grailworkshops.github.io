@@ -176,3 +176,12 @@
   links:
     linkedin: "https://www.linkedin.com/in/kous2v/"
     scholar: "https://scholar.google.com/citations?user=tipePDkAAAAJ&hl=en&oi=ao"
+- name: "Peerat Limkonchotiwat"
+  affiliation: "AI Singapore / NUS"
+  focus: "SEA LLMs, benchmarks, and safety for multilingual and multimodal systems."
+  bio: "Research Fellow at AI Singapore, NUS. Leads SEA-LION, SEA-HELM, and SEA-Guard; collaborates on LLM, multimodal, safety, and dataset research. Contributor to SEACrowd and SEA-VL; invited researcher at Chulalongkorn University and SIGSEA advisory board member."
+  photo: "/assets/people/peerat.jpg"
+  publish: true
+  links:
+    linkedin: "https://www.linkedin.com/in/peerat-limkonchotiwat/"
+    scholar: "https://scholar.google.com/citations?user=T-rvPZ4AAAAJ&hl=en&oi=ao"

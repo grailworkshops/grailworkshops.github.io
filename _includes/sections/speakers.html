@@ -28,23 +28,23 @@
               </article>
             {% endif %}
           {% else %}
-            <article>
+            {% assign profile_url = speaker.profile %}
+            {% if profile_url == nil or profile_url == "" %}
+              {% if speaker.links %}
+                {% if speaker.links.home and speaker.links.home != "" %}
+                  {% assign profile_url = speaker.links.home %}
+                {% elsif speaker.links.scholar and speaker.links.scholar != "" %}
+                  {% assign profile_url = speaker.links.scholar %}
+                {% elsif speaker.links.linkedin and speaker.links.linkedin != "" %}
+                  {% assign profile_url = speaker.links.linkedin %}
+                {% endif %}
+              {% endif %}
+            {% endif %}
+            <article{% if profile_url and profile_url != "" %} class="profile-card" data-profile="{{ profile_url }}"{% endif %}>
               {% if speaker.photo and speaker.photo != "" %}
                 <img class="avatar-photo" src="{{ speaker.photo | relative_url }}" alt="{{ speaker.name }}" />
               {% else %}
                 <div class="avatar">{{ speaker.initials }}</div>
-              {% endif %}
-              {% assign profile_url = speaker.profile %}
-              {% if profile_url == nil or profile_url == "" %}
-                {% if speaker.links %}
-                  {% if speaker.links.home and speaker.links.home != "" %}
-                    {% assign profile_url = speaker.links.home %}
-                  {% elsif speaker.links.scholar and speaker.links.scholar != "" %}
-                    {% assign profile_url = speaker.links.scholar %}
-                  {% elsif speaker.links.linkedin and speaker.links.linkedin != "" %}
-                    {% assign profile_url = speaker.links.linkedin %}
-                  {% endif %}
-                {% endif %}
               {% endif %}
               {% if profile_url and profile_url != "" %}
                 <h3><a class="profile-link" href="{{ profile_url }}" target="_blank" rel="noopener">{{ speaker.name }}</a></h3>
@@ -70,23 +70,23 @@
               <span>{{ speaker.focus }}</span>
             </article>
           {% else %}
-            <article>
+            {% assign profile_url = speaker.profile %}
+            {% if profile_url == nil or profile_url == "" %}
+              {% if speaker.links %}
+                {% if speaker.links.home and speaker.links.home != "" %}
+                  {% assign profile_url = speaker.links.home %}
+                {% elsif speaker.links.scholar and speaker.links.scholar != "" %}
+                  {% assign profile_url = speaker.links.scholar %}
+                {% elsif speaker.links.linkedin and speaker.links.linkedin != "" %}
+                  {% assign profile_url = speaker.links.linkedin %}
+                {% endif %}
+              {% endif %}
+            {% endif %}
+            <article{% if profile_url and profile_url != "" %} class="profile-card" data-profile="{{ profile_url }}"{% endif %}>
               {% if speaker.photo and speaker.photo != "" %}
                 <img class="avatar-photo" src="{{ speaker.photo | relative_url }}" alt="{{ speaker.name }}" />
               {% else %}
                 <div class="avatar">{{ speaker.initials }}</div>
-              {% endif %}
-              {% assign profile_url = speaker.profile %}
-              {% if profile_url == nil or profile_url == "" %}
-                {% if speaker.links %}
-                  {% if speaker.links.home and speaker.links.home != "" %}
-                    {% assign profile_url = speaker.links.home %}
-                  {% elsif speaker.links.scholar and speaker.links.scholar != "" %}
-                    {% assign profile_url = speaker.links.scholar %}
-                  {% elsif speaker.links.linkedin and speaker.links.linkedin != "" %}
-                    {% assign profile_url = speaker.links.linkedin %}
-                  {% endif %}
-                {% endif %}
               {% endif %}
               {% if profile_url and profile_url != "" %}
                 <h3><a class="profile-link" href="{{ profile_url }}" target="_blank" rel="noopener">{{ speaker.name }}</a></h3>

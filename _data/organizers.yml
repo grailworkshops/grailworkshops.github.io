@@ -5,7 +5,7 @@
   profile: ""
   photo: "/assets/people/amit.jpg"
   links:
-    home: ""
+    home: "https://iamamitagarwal.github.io/"
     scholar: "https://scholar.google.com/citations?user=Mc9RC6QAAAAJ"
     linkedin: "https://www.linkedin.com/in/amitagarwal6/"
 - name: "Vivek Gupta"
@@ -15,7 +15,7 @@
   profile: ""
   photo: "/assets/people/vivek-gupta.jpg"
   links:
-    home: ""
+    home: "https://vgupta123.github.io/"
     scholar: "https://scholar.google.com/citations?user=Bs5H0S4AAAAJ&hl=en"
     linkedin: "https://www.linkedin.com/in/keviv9/"
 - name: "Vivek Srikumar"
@@ -25,7 +25,7 @@
   profile: ""
   photo: "/assets/people/vivek-srikumar.jpg"
   links:
-    home: ""
+    home: "http://svivek.com/"
     scholar: "https://scholar.google.com/citations?user=TsTUfOIAAAAJ"
     linkedin: "https://www.linkedin.com/in/viveksrikumar/"
 - name: "Tao Sheng"
@@ -35,7 +35,7 @@
   profile: ""
   photo: "/assets/people/tao.jpeg"
   links:
-    home: ""
+    home: "https://www.linkedin.com/in/tao-sheng-729b6443/"
     scholar: "https://scholar.google.com/citations?user=HCUn94EAAAAJ&hl=en"
     linkedin: "https://www.linkedin.com/in/tao-sheng-729b6443/"
 - name: "Alice Oh"
@@ -45,7 +45,7 @@
   profile: ""
   photo: "/assets/people/aliceoh.jpg"
   links:
-    home: ""
+    home: "https://aliceoh9.github.io"
     scholar: "https://scholar.google.com/citations?hl=en&user=B88-xMEAAAAJ&view_op=list_works"
     linkedin: "https://www.linkedin.com/in/alice-oh-4677544/"
 - name: "Sara Hooker"
@@ -55,7 +55,7 @@
   profile: ""
   photo: "/assets/people/SaraHooker5x4.jpg"
   links:
-    home: ""
+    home: "https://www.sarahooker.me/"
     scholar: "https://scholar.google.com/citations?hl=en&user=2xy6h3sAAAAJ"
     linkedin: "https://www.linkedin.com/in/sararosehooker/"
 - name: "Jyotika Singh"
@@ -75,6 +75,6 @@
   profile: ""
   photo: "/assets/people/hitesh.jpg"
   links:
-    home: ""
+    home: "https://hiteshlpatel.github.io/"
     scholar: "https://scholar.google.com/citations?hl=en&user=R3X_R9UAAAAJ"
     linkedin: "https://www.linkedin.com/in/hitesh-patel-63ba9210a/"

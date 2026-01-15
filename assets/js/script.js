@@ -248,6 +248,18 @@ document.querySelectorAll('.flip-card').forEach((card) => {
   });
 });
 
+document.querySelectorAll('.profile-card[data-profile]').forEach((card) => {
+  card.addEventListener('click', (event) => {
+    if (event.target.closest('a')) {
+      return;
+    }
+    const href = card.getAttribute('data-profile');
+    if (href) {
+      window.open(href, '_blank', 'noopener');
+    }
+  });
+});
+
 const countdownTargets = {
   submission: '2026-03-05T23:59:59-12:00',
   workshop: '2026-06-03T09:00:00-06:00',

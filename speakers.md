@@ -7,7 +7,23 @@ permalink: /speakers/
 ---
 
 {% include sections/speakers.html %}
+<style>
+  #speakers.section,
+  #organizers.section,
+  #committee.section {
+    padding-top: 36px;
+  }
+  #speakers .section-title,
+  #organizers .section-title,
+  #committee .section-title {
+    margin-bottom: 20px;
+  }
+  #speakers .section-title h2,
+  #organizers .section-title h2,
+  #committee .section-title h2 {
+    margin-top: 0;
+  }
+</style>
 {% include sections/organizers.html %}
 {% include sections/committee.html %}
-{% include sections/reviewers.html %}
 {% include sections/contact.html %}
