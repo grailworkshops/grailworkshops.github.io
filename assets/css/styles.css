@@ -1071,6 +1071,12 @@ body.no-scroll {
   gap: 12px;
 }
 
+@media (min-width: 1200px) {
+  .committee-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+
 .committee-grid article {
   padding: 12px;
   gap: 4px;
