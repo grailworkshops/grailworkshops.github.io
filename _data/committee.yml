@@ -142,11 +142,6 @@
   links:
     linkedin: "https://www.linkedin.com/in/nshah171/"
     scholar: "https://scholar.google.com/citations?user=Qut69OgAAAAJ&hl=en"
-- name: "Praneet Pabolu"
-  affiliation: "Splunk"
-  focus: "Agentic AI"
-  links:
-    linkedin: "https://www.linkedin.com/in/deathreaper0965/"
 - name: "Nirmesh Shah"
   affiliation: "Sony Research"
   focus: "Multimodal speech"
@@ -185,3 +180,21 @@
   links:
     linkedin: "https://www.linkedin.com/in/peerat-limkonchotiwat/"
     scholar: "https://scholar.google.com/citations?user=T-rvPZ4AAAAJ&hl=en&oi=ao"
+- name: "Taki Hasan"
+  affiliation: ""
+  focus: "Trustworthy AI and test-time adaptation for vision-language models."
+  bio: "PhD candidate at Hanyang University, South Korea. Research focuses on trustworthy AI, including efficient test-time adaptation of vision-language and multimodal models for handling distribution shifts."
+  photo: "/assets/people/taki.jpg"
+  publish: true
+  links:
+    home: "https://takihasan.github.io/"
+    scholar: "https://scholar.google.co.in/citations?hl=en&user=L5K8I1UAAAAJ&view_op=list_works&sortby=pubdate"
+- name: "Praneet Pabolu"
+  affiliation: ""
+  focus: "Reinforcement learning, multimodal architectures, and agentic systems."
+  bio: "Holds a Master’s from Cornell and leads foundation model development at Splunk, focusing on representation learning and generative reasoning for complex environments."
+  photo: "/assets/people/praneet.jpg"
+  publish: true
+  links:
+    linkedin: "https://www.linkedin.com/in/deathreaper0965/"
+    scholar: "https://scholar.google.com/citations?user=aNXn0loAAAAJ"
