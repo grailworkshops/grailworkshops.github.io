@@ -21,6 +21,28 @@
     <meta name="twitter:title" content="{{ page_title }}" />
     <meta name="twitter:description" content="{{ page_description }}" />
     <meta name="twitter:image" content="{{ og_image | absolute_url }}" />
+    {% if site.data.site.seo.keywords %}
+      <meta name="keywords" content="{{ site.data.site.seo.keywords | join: ', ' }}" />
+    {% endif %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "{{ site.title }}",
+        "description": "{{ site.description }}",
+        "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "startDate": "{{ site.data.site.seo.event_start }}",
+        "endDate": "{{ site.data.site.seo.event_end }}",
+        "location": {
+          "@type": "Place",
+          "name": "CVPR 2026",
+          "address": "{{ site.data.site.seo.event_location }}"
+        },
+        "image": "{{ og_image | absolute_url }}",
+        "url": "{{ site.url | append: site.baseurl }}"
+      }
+    </script>
     <link rel="icon" href="{{ '/assets/logo_v2.png' | relative_url }}" type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

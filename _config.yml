@@ -5,6 +5,8 @@ url: "https://grailworkshops.github.io"
 markdown: kramdown
 permalink: pretty
 theme: null
+plugins:
+  - jekyll-sitemap
 exclude:
   - legacy
   - README.md
