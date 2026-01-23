@@ -8,3 +8,6 @@ tmp_latex/
 .DS_Store
 Thumbs.db
 *.code-workspace
+package-lock.json
+package.json
+node_modules/

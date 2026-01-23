@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "GRAIL-V at CVPR 2026"
-description: "GRAIL-V is a CVPR 2026 workshop on grounded multimodal retrieval, reasoning, and verification for agentic vision systems."
+description: "GRAIL-V is a CVPR 2026 workshop on grounded multimodal retrieval, reasoning, and verification for agentic vision systems. Accepted papers appear in the CVPR 2026 Workshop Proceedings."
 ---
 
 {% include sections/hero.html %}

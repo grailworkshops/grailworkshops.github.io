@@ -3,7 +3,7 @@
 - question: "What should I include to make my submission strong?"
   answer: "Clear evidence grounding (citations or region/page/moment provenance), realistic efficiency reporting (latency/memory/cost), and reproducible artifacts with licenses when possible."
 - question: "Is GRAIL-V archival?"
-  answer: "Yes. Accepted papers appear in the CVPR 2026 Workshop proceedings."
+  answer: "Yes. Accepted papers appear in the CVPR 2026 Workshop Proceedings (archival)."
 - question: "Can I submit non-archival or demo-only work?"
   answer: "Yes. We welcome demos and industry showcases. Indicate this in your submission."
 - question: "Are remote presentations allowed?"

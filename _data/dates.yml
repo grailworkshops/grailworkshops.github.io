@@ -9,10 +9,10 @@
   title: "Author response (optional)"
   description: "Lightweight rebuttal window to clarify factual issues."
   internal: true
-- date: "Mar 28, 2026"
+- date: "Mar 18, 2026"
   title: "Notification to authors"
   description: "Decisions released via OpenReview."
-- date: "Apr 11, 2026"
+- date: "Apr 5, 2026"
   title: "Camera-ready due"
   description: "Final versions for CVPR workshop proceedings."
 - date: "Apr 18, 2026"

@@ -43,6 +43,11 @@ a {
   text-decoration: none;
 }
 
+.highlight-accent {
+  color: var(--accent);
+  font-weight: 700;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -916,6 +921,18 @@ body.no-scroll {
 .submission-steps span {
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+.submission-steps a,
+.submission-card a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.submission-steps a:hover,
+.submission-card a:hover {
+  color: var(--ink);
 }
 
 .topic-tags {

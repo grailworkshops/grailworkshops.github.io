@@ -5,6 +5,7 @@ summary:
   title: "Submission at a glance"
   bullets:
     - "CVPR format, double-blind, up to 8 pages (references excluded)."
+    - "Accepted papers appear in the <span class=\"highlight-accent\">CVPR 2026 Workshop Proceedings</span>."
     - "Grounded evidence + efficiency metrics strongly encouraged."
     - "Submit via OpenReview."
 checklist:
@@ -23,13 +24,13 @@ paper_types:
     description: "New tasks, datasets, or evaluation harnesses for grounded retrieval and verification."
 how_to_submit:
   - title: "Follow CVPR rules"
-    description: "Use the CVPR 2026 author guidelines (template, anonymization, ethics): https://cvpr.thecvf.com/Conferences/2026/AuthorGuidelines"
+    description: "Use the <a href=\"https://cvpr.thecvf.com/Conferences/2026/AuthorGuidelines\" target=\"_blank\" rel=\"noopener\">CVPR 2026 author guidelines</a> (template, anonymization, ethics)."
   - title: "Show grounding & efficiency"
     description: "Include region/page/moment evidence, calibration/abstention, and real deployment constraints."
   - title: "Include artifacts (encouraged)"
     description: "Link code/data/models with licenses and provenance."
   - title: "Submit on OpenReview"
-    description: "Use the workshop OpenReview forum."
+    description: "Use the workshop <a href=\"https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/GRAIL-V\" target=\"_blank\" rel=\"noopener\">OpenReview forum</a>."
   - title: "Present at the workshop"
     description: "Camera-ready after reviews; at least one author presents in person per CVPR policy."
 portal:
