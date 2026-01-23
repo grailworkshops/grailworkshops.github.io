@@ -1,0 +1,22 @@
+<section id="sponsors" class="section alt" data-animate>
+  <div class="section-title">
+    <h2>{{ site.data.sponsors.title }}</h2>
+    {% if site.data.sponsors.subtitle %}
+      <p class="section-subtitle">{{ site.data.sponsors.subtitle }}</p>
+    {% endif %}
+  </div>
+  <div class="sponsor-grid">
+    {% for sponsor in site.data.sponsors.sponsors %}
+      <a class="sponsor-card" href="{{ sponsor.link }}" target="_blank" rel="noopener noreferrer">
+        {% if sponsor.logo %}
+          <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.alt | default: sponsor.name }}" />
+        {% else %}
+          <span class="sponsor-name">{{ sponsor.name }}</span>
+        {% endif %}
+        {% if sponsor.level %}
+          <span class="sponsor-level">{{ sponsor.level }}</span>
+        {% endif %}
+      </a>
+    {% endfor %}
+  </div>
+</section>

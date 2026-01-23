@@ -8,6 +8,18 @@
         <a href="mailto:{{ site.data.site.contact_email }}">{{ site.data.site.contact_email }}</a>
       </p>
     </div>
+    <div class="footer-sponsor-block">
+      <strong>Sponsors</strong>
+      {% for sponsor in site.data.sponsors.sponsors %}
+        <a class="footer-sponsor" href="{{ sponsor.link }}" target="_blank" rel="noopener noreferrer">
+          {% if sponsor.logo %}
+            <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.alt | default: sponsor.name }}" />
+          {% else %}
+            <span>{{ sponsor.name }}</span>
+          {% endif %}
+        </a>
+      {% endfor %}
+    </div>
     <div class="footer-links">
       <div>
         <strong>Resources</strong>

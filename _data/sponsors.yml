@@ -1,0 +1,8 @@
+title: "Sponsors"
+subtitle: "We are grateful for the support that makes GRAIL-V possible."
+sponsors:
+  - name: "Oracle"
+    level: "Sponsor"
+    link: "https://www.oracle.com/careers/opportunities/oracle-cloud-infrastructure/"
+    logo: "/assets/sponsors/oracle.svg"
+    alt: "Oracle"
