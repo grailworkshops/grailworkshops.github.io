@@ -39,6 +39,24 @@
           "name": "CVPR 2026",
           "address": "{{ site.data.site.seo.event_location }}"
         },
+        "organizer": {
+          "@type": "Organization",
+          "name": "{{ site.title }} Organizers",
+          "url": "{{ site.url | append: site.baseurl }}",
+          "email": "{{ site.data.site.contact_email }}"
+        },
+        "performer": {
+          "@type": "Organization",
+          "name": "Invited speakers and panelists (see site for updates)"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://cvpr.thecvf.com/Conferences/2026",
+          "availability": "https://schema.org/InStock",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "Registration is handled via CVPR 2026."
+        },
         "image": "{{ og_image | absolute_url }}",
         "url": "{{ site.url | append: site.baseurl }}"
       }
