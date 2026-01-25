@@ -12,7 +12,7 @@ permalink: /cfp/
   <p class="lead">
     At <strong>GRAIL-V</strong> we bring together <strong>CV, IR, NLP, and HCI</strong> communities to advance
     unified methods and evaluation practices for visual–text search, multimodal tool use, and calibrated
-    decision-making.
+    decision-making. This is the <strong>CVPR 2026 workshop CFP</strong> for multimodal generative/understanding models and agents that plan, retrieve, reason and verify with an evidence-centric systems.
   </p>
   <p>
     We invite papers and demos on <strong>grounded vision-language systems</strong> that plan, retrieve, reason,

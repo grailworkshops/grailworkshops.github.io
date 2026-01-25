@@ -4,6 +4,8 @@
   answer: "Clear evidence grounding (citations or region/page/moment provenance), realistic efficiency reporting (latency/memory/cost), and reproducible artifacts with licenses when possible."
 - question: "Is GRAIL-V archival?"
   answer: "Yes. Accepted papers appear in the CVPR 2026 Workshop Proceedings (archival)."
+- question: "When is the CVPR 2026 workshop submission deadline?"
+  answer: "See the Important Dates section on this page for the exact deadline and timeline updates."
 - question: "Can I submit non-archival or demo-only work?"
   answer: "Yes. We welcome demos and industry showcases. Indicate this in your submission."
 - question: "Are remote presentations allowed?"
