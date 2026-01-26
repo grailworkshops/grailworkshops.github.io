@@ -75,7 +75,7 @@
   focus: "Efficient retrieval, multi-hop QA"
   bio: "Works on efficient retrieval and multi-hop QA, designing retrieval-augmented architectures that balance latency and quality."
   initials: "SY"
-  publish: false
+  publish: true
   profile: ""
   photo: "/assets/people/Scott%20Yih_FB%20Small.jpg"
   links:
