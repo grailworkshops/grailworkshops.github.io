@@ -73,7 +73,7 @@
 - name: "Scott Wen-Tau Yih"
   org: "Meta"
   focus: "Efficient retrieval, multi-hop QA"
-  bio: "Works on efficient retrieval and multi-hop QA, designing retrieval-augmented architectures that balance latency and quality."
+  bio: "Research Scientist at Meta FAIR and affiliate professor at the University of Washington. His work spans NLP, ML, and information retrieval, including DPR and RAG, and he was named an ACL Fellow in 2024."
   initials: "SY"
   publish: true
   profile: ""
