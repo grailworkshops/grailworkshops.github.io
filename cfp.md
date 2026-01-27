@@ -39,7 +39,7 @@ permalink: /cfp/
     </article>
     <article>
       <h4>Grounding &amp; Evidence</h4>
-      <p>Citation provenance, evidence overlays, and audit-ready faithfulness.</p>
+      <p>Benchmarks, Evaluation Metrics, Citation provenance, evidence overlays, and audit-ready faithfulness.</p>
     </article>
     <article>
       <h4>Deployment Excellence</h4>
