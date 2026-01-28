@@ -82,6 +82,14 @@
     home: "https://scottyih.org/"
     scholar: "https://scholar.google.com/citations?hl=en&user=8rDNIMsAAAAJ"
     linkedin: "https://www.linkedin.com/in/scottyih/"
+- name: "Sujith Ravi"
+  org: "Oracle AI"
+  focus: "Frontier models and agentic systems for enterprise AI."
+  bio: "VP of AI at Oracle, leading frontier models and agentic systems for enterprise and large‑scale deployment."
+  initials: "SR"
+  publish: true
+  profile: ""
+  photo: "/assets/people/sujith_ravi.png"
 
 - type: "panel"
   name: "More to be announced"
