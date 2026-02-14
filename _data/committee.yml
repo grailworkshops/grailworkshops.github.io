@@ -198,3 +198,12 @@
   links:
     linkedin: "https://www.linkedin.com/in/deathreaper0965/"
     scholar: "https://scholar.google.com/citations?user=aNXn0loAAAAJ"
+- name: "Dr. Pao-Ann Hsiung"
+  affiliation: ""
+  focus: "AI, IoT, and smart city governance."
+  bio: "Professor of Computer Science and Dean of the College of Engineering. His work spans AI, IoT, and smart city applications, and he previously led smart city initiatives in Chiayi City that earned international recognition."
+  photo: "/assets/people/pao_ann.jpg"
+  publish: true
+  links:
+    home: "https://www.cs.ccu.edu.tw/~pahsiung/"
+    scholar: "https://scholar.google.com/citations?user=cJwCu0IAAAAJ&hl=zh-TW"
