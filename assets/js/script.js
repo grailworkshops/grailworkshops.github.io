@@ -225,6 +225,8 @@ if (searchOverlay && searchInput && searchResults) {
   });
 }
 
+/* ===== Scroll Animations ===== */
+
 const animatedElements = document.querySelectorAll('[data-animate]');
 if (animatedElements.length) {
   const observer = new IntersectionObserver(
@@ -242,11 +244,43 @@ if (animatedElements.length) {
   animatedElements.forEach((el) => observer.observe(el));
 }
 
+/* ===== Stagger Animation ===== */
+
+const staggerContainers = document.querySelectorAll('[data-stagger]');
+if (staggerContainers.length) {
+  // Apply incremental transition-delay to each direct child
+  staggerContainers.forEach((container) => {
+    const children = container.querySelectorAll(':scope > *');
+    children.forEach((child, i) => {
+      child.style.transitionDelay = `${i * 80}ms`;
+    });
+  });
+
+  // Observe stagger containers for viewport entry
+  const staggerObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          staggerObserver.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.12 }
+  );
+
+  staggerContainers.forEach((el) => staggerObserver.observe(el));
+}
+
+/* ===== Flip Cards ===== */
+
 document.querySelectorAll('.flip-card').forEach((card) => {
   card.addEventListener('click', () => {
     card.classList.toggle('is-flipped');
   });
 });
+
+/* ===== Profile Cards ===== */
 
 document.querySelectorAll('.profile-card[data-profile]').forEach((card) => {
   card.addEventListener('click', (event) => {
@@ -260,6 +294,8 @@ document.querySelectorAll('.profile-card[data-profile]').forEach((card) => {
   });
 });
 
+/* ===== Countdown Timers ===== */
+
 const countdownTargets = {
   submission: '2026-03-05T23:59:59-12:00',
   workshop: '2026-06-03T09:00:00-06:00',
@@ -268,27 +304,39 @@ const countdownTargets = {
 const formatCountdown = (targetDate) => {
   const now = new Date();
   const target = new Date(targetDate);
-  const diff = Math.ceil((target - now) / (1000 * 60 * 60 * 24));
+  const diff = target - now;
 
   if (Number.isNaN(diff)) {
     return null;
   }
   if (diff < 0) {
-    return 'Event completed';
+    return 'Completed';
   }
-  if (diff === 0) {
-    return 'Today';
-  }
-  return `${diff} days remaining`;
+
+  const d = Math.floor(diff / 86400000);
+  const h = Math.floor((diff % 86400000) / 3600000);
+  const m = Math.floor((diff % 3600000) / 60000);
+  return `${d}d ${String(h).padStart(2, '0')}h ${String(m).padStart(2, '0')}m`;
 };
 
-Object.entries(countdownTargets).forEach(([key, date]) => {
-  const el = document.querySelector(`[data-countdown="${key}"]`);
-  if (!el) {
-    return;
-  }
-  const formatted = formatCountdown(date);
-  if (formatted) {
-    el.textContent = `${el.textContent} | ${formatted}`;
-  }
-});
+const updateCountdowns = () => {
+  Object.entries(countdownTargets).forEach(([key, date]) => {
+    const el = document.querySelector(`[data-countdown="${key}"]`);
+    if (!el) {
+      return;
+    }
+    // Store original text on first run
+    if (!el.dataset.originalText) {
+      el.dataset.originalText = el.textContent;
+    }
+    const formatted = formatCountdown(date);
+    if (formatted) {
+      el.textContent = `${el.dataset.originalText} | ${formatted}`;
+    }
+  });
+};
+
+// Initial update
+updateCountdowns();
+// Refresh every 60 seconds
+setInterval(updateCountdowns, 60000);

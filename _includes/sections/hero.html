@@ -19,7 +19,7 @@
         {% endif %}
       {% endfor %}
     </div>
-    <div class="hero-metrics">
+    <div class="hero-metrics" data-stagger>
       {% for metric in site.data.site.hero.metrics %}
         {% if metric.href %}
           {% assign href = metric.href | default: "" %}
@@ -42,7 +42,7 @@
         {% endif %}
       {% endfor %}
     </div>
-    <div class="countdown">
+    <div class="countdown" data-stagger>
       {% for item in site.data.site.hero.countdowns %}
         <div>
           <span class="label">{{ item.label }}</span>

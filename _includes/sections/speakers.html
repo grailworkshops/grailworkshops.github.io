@@ -15,7 +15,7 @@
       <a class="btn ghost" href="{{ '/updates/' | relative_url }}">See updates</a>
     </div>
   {% else %}
-    <div class="grid speakers">
+    <div class="grid speakers" data-stagger>
       {% assign featured_speakers = published_speakers %}
       {% if speaker_limit %}
         {% for speaker in featured_speakers limit: speaker_limit %}
