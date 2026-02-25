@@ -207,3 +207,11 @@
   links:
     home: "https://www.cs.ccu.edu.tw/~pahsiung/"
     scholar: "https://scholar.google.com/citations?user=cJwCu0IAAAAJ&hl=zh-TW"
+- name: "Bronson Bakunga"
+  affiliation: "Co-Founder, Crane AI Labs"
+  focus: "Offline-first AI infrastructure for African languages and education access."
+  bio: "Ugandan ML engineer, NLP researcher, and co-founder of Crane AI Labs. He builds compact offline-first language models for low-power devices to improve education access across Sub-Saharan Africa."
+  photo: "/assets/people/bronson.jpg"
+  publish: true
+  links:
+    linkedin: "https://www.linkedin.com/in/bakungabronson/"
