@@ -455,8 +455,25 @@ body.no-scroll {
   margin-right: 8px;
   color: var(--muted);
   text-decoration: line-through;
+  -webkit-text-decoration-line: line-through;
+  text-decoration-line: line-through;
   text-decoration-thickness: 2px;
+  -webkit-text-decoration-color: currentColor;
+  text-decoration-color: currentColor;
   opacity: 0.85;
+  position: relative;
+}
+
+.date-strike::after {
+  content: "";
+  position: absolute;
+  left: -1px;
+  right: -1px;
+  top: 52%;
+  height: 2px;
+  background: currentColor;
+  opacity: 0.9;
+  pointer-events: none;
 }
 
 @keyframes pulse {
