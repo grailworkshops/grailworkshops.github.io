@@ -2,9 +2,10 @@
   title: "Call for Papers posted"
   description: "CFP opens with submission details and topics."
   internal: true
-- date: "Mar 5, 2026"
+- date: "Mar 7, 2026"
+  old_date: "Mar 5, 2026"
   title: "CVPR 2026 workshop submission deadline"
-  description: "OpenReview submission closes at 23:59 AoE."
+  description: "Extended deadline. OpenReview submission closes at 23:59 AoE."
 - date: "Mar 20-22, 2026"
   title: "Author response (optional)"
   description: "Lightweight rebuttal window to clarify factual issues."

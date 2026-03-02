@@ -46,7 +46,15 @@
       {% for item in site.data.site.hero.countdowns %}
         <div>
           <span class="label">{{ item.label }}</span>
-          <strong data-countdown="{{ item.key }}">{{ item.text }}</strong>
+          <strong data-countdown="{{ item.key }}">
+            <span class="countdown-copy">
+              {% if item.old_text %}
+                <span class="date-strike">{{ item.old_text }}</span>
+              {% endif %}
+              <span>{{ item.text }}</span>
+            </span>
+            <span class="countdown-live" data-countdown-live="{{ item.key }}"></span>
+          </strong>
         </div>
       {% endfor %}
     </div>

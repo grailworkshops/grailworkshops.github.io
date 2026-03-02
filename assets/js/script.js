@@ -297,7 +297,7 @@ document.querySelectorAll('.profile-card[data-profile]').forEach((card) => {
 /* ===== Countdown Timers ===== */
 
 const countdownTargets = {
-  submission: '2026-03-05T23:59:59-12:00',
+  submission: '2026-03-07T23:59:59-12:00',
   workshop: '2026-06-03T09:00:00-06:00',
 };
 
@@ -322,16 +322,13 @@ const formatCountdown = (targetDate) => {
 const updateCountdowns = () => {
   Object.entries(countdownTargets).forEach(([key, date]) => {
     const el = document.querySelector(`[data-countdown="${key}"]`);
+    const liveEl = document.querySelector(`[data-countdown-live="${key}"]`);
     if (!el) {
       return;
     }
-    // Store original text on first run
-    if (!el.dataset.originalText) {
-      el.dataset.originalText = el.textContent;
-    }
     const formatted = formatCountdown(date);
-    if (formatted) {
-      el.textContent = `${el.dataset.originalText} | ${formatted}`;
+    if (formatted && liveEl) {
+      liveEl.textContent = formatted === 'Completed' ? 'Completed' : `| ${formatted}`;
     }
   });
 };

@@ -438,6 +438,25 @@ body.no-scroll {
   font-family: "JetBrains Mono", monospace;
   font-size: 1.05rem;
   color: var(--accent);
+  line-height: 1.45;
+}
+
+.countdown-copy {
+  display: inline;
+}
+
+.countdown-live {
+  display: inline;
+  margin-left: 8px;
+}
+
+.date-strike {
+  display: inline-block;
+  margin-right: 8px;
+  color: var(--muted);
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  opacity: 0.85;
 }
 
 @keyframes pulse {
@@ -877,6 +896,9 @@ body.no-scroll {
 .timeline-item .date {
   font-weight: 700;
   color: var(--accent-2);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 /* ===== Speakers ===== */

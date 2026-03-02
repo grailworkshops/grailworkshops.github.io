@@ -7,7 +7,12 @@
   <div class="timeline">
     {% for item in public_dates %}
       <div class="timeline-item">
-        <span class="date">{{ item.date }}</span>
+        <span class="date">
+          {% if item.old_date %}
+            <span class="date-strike">{{ item.old_date }}</span>
+          {% endif %}
+          <span>{{ item.date }}</span>
+        </span>
         <div>
           <h3>{{ item.title }}</h3>
           <p>{{ item.description }}</p>

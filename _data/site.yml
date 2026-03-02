@@ -1,6 +1,6 @@
 announcement:
-  pill: ""
-  text: "CVPR 2026 Workshop in Denver, USA. CFP is now OPEN!"
+  pill: "Deadline extended"
+  text: "Submission deadline extended from Mar 5 to Mar 7, 2026 (AoE)."
 contact_email: "grailworkshops@googlegroups.com"
 brand:
   name: "GRAIL-V"
@@ -86,11 +86,12 @@ hero:
       label: "CVPR 2026 · Denver, CO, USA · in-person with hybrid access"
       href: "/venue/#venue"
     - value: "When"
-      label: "Jun 3–4, 2026 · Submissions due Mar 5 (AoE)"
+      label: "Jun 3–4, 2026 · Submissions due Mar 7 (AoE)"
       href: "/cfp/#dates"
   countdowns:
     - label: "Submission deadline"
-      text: "Mar 5, 2026 (AoE)"
+      old_text: "Mar 5, 2026"
+      text: "Mar 7, 2026 (AoE)"
       key: "submission"
     - label: "Workshop day"
       text: "Jun 3-4, 2026"
