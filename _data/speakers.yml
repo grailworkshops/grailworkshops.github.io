@@ -95,6 +95,19 @@
     scholar: "https://scholar.google.com/citations?user=sM-dHicAAAAJ&hl=en&oi=ao"
     linkedin: "https://www.linkedin.com/in/sujithravi/"
 
+- name: "Vijay Krishnan"
+  org: "Turing"
+  focus: "Reasoning, coding, multimodality, and agentic AI systems."
+  bio: "Co-Founder and CTO of Turing, where he leads technical strategy for frontier AI systems across reasoning, coding, multimodality, and agentic workflows. His work focuses on scalable human-AI systems that advance practical and reliable intelligence."
+  initials: "VK"
+  publish: true
+  profile: ""
+  photo: "/assets/people/vijay_krishnan.jpeg"
+  links:
+    home: "https://www.turing.com/"
+    scholar: ""
+    linkedin: "https://www.linkedin.com/in/vijay0/"
+
 - type: "panel"
   name: "More to be announced"
   org: "Leaders from Industry & Academia"
