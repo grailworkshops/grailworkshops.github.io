@@ -297,7 +297,7 @@ document.querySelectorAll('.profile-card[data-profile]').forEach((card) => {
 /* ===== Countdown Timers ===== */
 
 const countdownTargets = {
-  submission: '2026-03-07T23:59:59-12:00',
+  submission: '2026-03-08T23:59:59-12:00',
   workshop: '2026-06-03T09:00:00-06:00',
 };
 

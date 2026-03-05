@@ -10,9 +10,9 @@
     label: "OpenReview"
     href: "https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/GRAIL-V"
   publish: true
-- date: "2026-03-02"
-  title: "Submission deadline extended to March 7"
-  description: "The GRAIL-V paper submission deadline has been extended from March 5 to March 7, 2026 at 23:59 AoE."
+- date: "2026-03-05"
+  title: "Submission deadline extended to March 8"
+  description: "The GRAIL-V paper submission deadline has been extended from March 7 to March 8, 2026 at 23:59 AoE."
   link:
     label: "View dates"
     href: "/cfp/#dates"
