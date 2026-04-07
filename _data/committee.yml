@@ -10,16 +10,6 @@
   links:
     linkedin: "https://www.linkedin.com/in/hitesh-patel-63ba9210a/"
     scholar: "https://scholar.google.com/citations?hl=en&user=R3X_R9UAAAAJ"
-- name: "Karan Dua"
-  affiliation: ""
-  focus: "Expertise in scaling multimodal data pipelines and synthetic generation for generative model training. Advances the field through the design of calibrated metrics and comprehensive benchmarking for generative AI."
-  # "Works on large scale data curation and synthetic data generation for training multimodal generative models along with evaluation and benchmarking of generative AI systems."
-  # "Evaluation and benchmarking for genai systems; reliable synthetic data generation."
-  photo: "/assets/people/karan_dua.jpeg"
-  publish: true
-  links:
-    linkedin: "https://www.linkedin.com/in/karandua93/"
-    scholar: "https://scholar.google.com/citations?user=vy1UejMAAAAJ&hl=en&oi=ao"
 - name: "Hansa Meghwani"
   affiliation: ""
   bio: "Holds an MSc from LJMU, UK. Specializes in the architecture of enterprise-grade RAG and agentic workflows with a focus on attribution. Expertise spans the rigorous evaluation of multilingual LLMs and VLMs."
