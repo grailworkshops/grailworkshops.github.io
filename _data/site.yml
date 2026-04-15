@@ -1,6 +1,6 @@
 announcement:
-  pill: "Deadline extended"
-  text: "Submission deadline extended from Mar 7 to Mar 8, 2026 (AoE)."
+  pill: "Workshop confirmed"
+  text: "Workshop day confirmed for Jun 3, 2026 at 8:00 AM in Denver."
 contact_email: "grailworkshops@googlegroups.com"
 brand:
   name: "GRAIL-V"
@@ -56,8 +56,8 @@ seo:
     - "retrieval workshop"
     - "agentic vision"
     - "grounded AI"
-  event_start: "2026-06-03"
-  event_end: "2026-06-04"
+  event_start: "2026-06-03T08:00:00-06:00"
+  event_end: "2026-06-03T11:30:00-06:00"
   event_location: "Denver, CO, USA"
 hero:
   # eyebrow: "Grounded Retrieval and Agentic Intelligence for Vision-Language"
@@ -86,7 +86,7 @@ hero:
       label: "CVPR 2026 · Denver, CO, USA · in-person with hybrid access"
       href: "/venue/#venue"
     - value: "When"
-      label: "Jun 3–4, 2026 · Submissions due Mar 8 (AoE)"
+      label: "Jun 3, 2026 · 8:00 AM · confirmed half-day program"
       href: "/cfp/#dates"
   countdowns:
     - label: "Submission deadline"
@@ -94,7 +94,7 @@ hero:
       text: "Mar 8, 2026 (AoE)"
       key: "submission"
     - label: "Workshop day"
-      text: "Jun 3-4, 2026"
+      text: "Jun 3, 2026 · 8:00 AM"
       key: "workshop"
 loop:
   title: "P-R-R-V Loop"

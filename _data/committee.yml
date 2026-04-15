@@ -1,3 +1,12 @@
+- name: "Karan Dua"
+  affiliation: ""
+  focus: "Multimodal data pipelines, synthetic generation, and evaluation for generative AI."
+  bio: "Builds large-scale multimodal data pipelines, synthetic generation workflows, and evaluation benchmarks for generative AI systems."
+  photo: "/assets/people/karan_dua.jpeg"
+  publish: true
+  links:
+    linkedin: "https://www.linkedin.com/in/karandua93/"
+    scholar: "https://scholar.google.com/citations?user=vy1UejMAAAAJ&hl=en&oi=ao"
 - name: "Srikant Panda"
   affiliation: "Optum"
   focus: "Agentic AI, Responsible AI"
@@ -205,3 +214,9 @@
   publish: true
   links:
     linkedin: "https://www.linkedin.com/in/bakungabronson/"
+- name: "Sai Ashish Somayajula"
+  affiliation: ""
+  focus: "NL2SQL, enterprise analytics, and reasoning over structured and unstructured data."
+  bio: "Holds a PhD from UC San Diego and works on NL2SQL, enterprise analytics, and robust reasoning across structured and unstructured data. Served as SRW Chair for EACL 2026, where the workshop expanded submissions, mentorship, and reviewer participation."
+  photo: "/assets/people/ashish_somayajula.jpeg"
+  publish: true

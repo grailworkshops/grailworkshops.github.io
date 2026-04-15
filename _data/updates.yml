@@ -1,3 +1,10 @@
+- date: "2026-04-15"
+  title: "Workshop day confirmed for June 3 at 8:00 AM"
+  description: "GRAIL-V will run on June 3, 2026 in Denver, with the half-day program starting at 8:00 AM local time."
+  link:
+    label: "View program"
+    href: "/program/"
+  publish: true
 - date: "2025-12-22"
   title: "Workshop accepted at CVPR 2026"
   description: "GRAIL-V has been accepted as a CVPR 2026 workshop in Denver, USA."

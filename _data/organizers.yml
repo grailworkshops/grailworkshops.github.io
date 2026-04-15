@@ -1,13 +1,3 @@
-- name: "Karan Dua"
-  org: "Oracle AI"
-  bio: "Builds large-scale multimodal data pipelines, synthetic generation workflows, and evaluation benchmarks for generative AI systems."
-  role: ""
-  profile: ""
-  photo: "/assets/people/karan_dua.jpeg"
-  links:
-    home: ""
-    scholar: "https://scholar.google.com/citations?user=vy1UejMAAAAJ&hl=en&oi=ao"
-    linkedin: "https://www.linkedin.com/in/karandua93/"
 - name: "Amit Agarwal"
   org: "Oracle AI"
   bio: "Builds agentic vision systems and retrieval pipelines with grounded evidence and data enrichment at scale."
