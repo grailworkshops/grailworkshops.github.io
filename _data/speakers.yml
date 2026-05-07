@@ -83,7 +83,7 @@
     scholar: "https://scholar.google.com/citations?hl=en&user=8rDNIMsAAAAJ"
     linkedin: "https://www.linkedin.com/in/scottyih/"
 - name: "Sujith Ravi"
-  org: "Oracle"
+  org: "VP, Oracle AI"
   focus: "Enterprise GenAI, agentic systems, and reliable deployment."
   bio: "Vice President of GenAI at Oracle and former founder of SliceX AI, leading frontier models and agentic systems for enterprise reliability, safety, and large‑scale deployment."
   initials: "SR"
@@ -107,6 +107,32 @@
     home: "https://www.turing.com/"
     scholar: ""
     linkedin: "https://www.linkedin.com/in/vijay0/"
+
+- name: "Kenneth Marino"
+  org: "University of Utah"
+  focus: "Embodied agents, multimodal language models, computer use, games, and robotics."
+  bio: "Kenneth Marino is an Assistant Professor at the Kahlert School of Computing at the University of Utah and former Research Scientist at Google DeepMind. His research focuses on integrating multimodal language models into embodied agent problems, including computer use, games, and robotics."
+  initials: "KM"
+  publish: true
+  profile: ""
+  photo: "/assets/people/kenneth_marino.jpg"
+  links:
+    home: "https://kennethmarino.com/"
+    scholar: "https://scholar.google.com/citations?user=6bQxCusAAAAJ&hl=en"
+    linkedin: ""
+
+- name: "Ming-Hsuan Yang"
+  org: "University of California, Merced"
+  focus: "Computer vision, pattern recognition, AI, robotics, and machine learning."
+  bio: "Ming-Hsuan Yang is a Professor in Electrical Engineering and Computer Science at the University of California, Merced. His research interests include computer vision, pattern recognition, artificial intelligence, robotics, and machine learning."
+  initials: "MY"
+  publish: true
+  profile: ""
+  photo: "/assets/people/ming_hsuan_yang.jpg"
+  links:
+    home: "https://faculty.ucmerced.edu/mhyang/"
+    scholar: "https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=en"
+    linkedin: ""
 
 - type: "panel"
   name: "More to be announced"

@@ -5,11 +5,11 @@ description: "GRAIL-V is a CVPR 2026 workshop on grounded multimodal retrieval, 
 ---
 
 {% include sections/hero.html %}
+{% include sections/program.html %}
+{% include sections/speakers.html mode="summary" limit=4 %}
 {% include sections/topics.html mode="summary" %}
 {% include sections/about.html hide_tracks=true %}
-{% include sections/submission.html mode="summary" %}
 {% include sections/dates.html %}
 {% include sections/updates.html mode="summary" %}
-{% include sections/speakers.html mode="summary" limit=4 %}
 {% include sections/venue.html %}
 {% include sections/contact.html %}

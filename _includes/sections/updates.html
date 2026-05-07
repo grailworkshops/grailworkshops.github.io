@@ -1,7 +1,7 @@
 <section id="updates" class="section alt" data-animate>
   <div class="section-title">
     <p class="eyebrow">Updates</p>
-    <h2>News and deadlines</h2>
+    <h2>Latest announcements</h2>
   </div>
   {% assign published_updates = site.data.updates | where_exp: "u", "u.publish == true" %}
   {% if published_updates.size == 0 %}

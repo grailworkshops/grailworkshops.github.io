@@ -6,6 +6,7 @@
   href: "/cfp/#dates"
 - label: "Program"
   href: "/program/"
+  cta: true
 - label: "Speakers"
   href: "/speakers/"
 - label: "Organizers"
@@ -18,6 +19,3 @@
   href: "/updates/"
 - label: "FAQ"
   href: "/faq/"
-- label: "Submit"
-  href: "/cfp/#submit"
-  cta: true

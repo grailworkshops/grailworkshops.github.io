@@ -1,16 +1,96 @@
 <section id="program" class="section program-agenda" data-animate>
-  <div class="section-title">
-    <h2>Agenda</h2>
-  </div>
-  <div class="schedule">
-    {% for item in site.data.program %}
-      <div class="schedule-item">
-        <span>{{ item.time }}</span>
-        <div>
-          <h3>{{ item.title }}</h3>
-          <p>{{ item.description }}</p>
-        </div>
+  <div class="agenda-shell">
+    <div class="agenda-heading">
+      <div>
+        <p class="eyebrow agenda-kicker">Confirmed program</p>
+        <h2>June 3 Agenda</h2>
       </div>
-    {% endfor %}
+      <div class="agenda-meta" aria-label="Workshop schedule summary">
+        <span>7:30 AM-12:30 PM</span>
+        <span>Half-day workshop</span>
+      </div>
+    </div>
+    <div class="schedule" aria-label="GRAIL-V program schedule">
+      {% for item in site.data.program %}
+        {% assign title_down = item.title | downcase %}
+        {% assign session_type = "session" %}
+        {% if title_down contains "keynote" %}
+          {% assign session_type = "keynote" %}
+        {% elsif title_down contains "coffee" %}
+          {% assign session_type = "break" %}
+        {% elsif title_down contains "poster" %}
+          {% assign session_type = "poster" %}
+        {% elsif title_down contains "panel" %}
+          {% assign session_type = "panel" %}
+        {% elsif title_down contains "welcome" or title_down contains "closing" %}
+          {% assign session_type = "remarks" %}
+        {% endif %}
+        {% assign has_description = false %}
+        {% if item.description and item.description != "" %}
+          {% assign has_description = true %}
+        {% endif %}
+        {% assign description_down = item.description | default: "" | downcase %}
+        {% assign published_speakers = site.data.speakers | where_exp: "s", "s.publish == true" %}
+        {% assign matched_speaker_count = 0 %}
+        {% for speaker in published_speakers %}
+          {% unless speaker.type == "panel" %}
+            {% assign speaker_name_down = speaker.name | downcase %}
+            {% if description_down contains speaker_name_down %}
+              {% assign matched_speaker_count = matched_speaker_count | plus: 1 %}
+            {% endif %}
+          {% endunless %}
+        {% endfor %}
+        <div class="schedule-item schedule-item--{{ session_type }}">
+          <span class="schedule-time">{{ item.time }}</span>
+          <span class="schedule-marker" aria-hidden="true"></span>
+          <div class="schedule-session{% unless has_description %} schedule-session--single{% endunless %}">
+            <h3>{{ item.title }}</h3>
+            {% if matched_speaker_count > 0 %}
+              <div class="schedule-people{% if matched_speaker_count > 1 %} schedule-people--panel{% endif %}">
+                {% for speaker in published_speakers %}
+                  {% unless speaker.type == "panel" %}
+                    {% assign speaker_name_down = speaker.name | downcase %}
+                    {% if description_down contains speaker_name_down %}
+                      {% assign matched_profile_url = speaker.profile %}
+                      {% if matched_profile_url == nil or matched_profile_url == "" %}
+                        {% if speaker.links %}
+                          {% if speaker.links.home and speaker.links.home != "" %}
+                            {% assign matched_profile_url = speaker.links.home %}
+                          {% elsif speaker.links.scholar and speaker.links.scholar != "" %}
+                            {% assign matched_profile_url = speaker.links.scholar %}
+                          {% elsif speaker.links.linkedin and speaker.links.linkedin != "" %}
+                            {% assign matched_profile_url = speaker.links.linkedin %}
+                          {% endif %}
+                        {% endif %}
+                      {% endif %}
+                      <div class="schedule-person">
+                        {% if speaker.photo and speaker.photo != "" %}
+                          <img class="schedule-person-photo" src="{{ speaker.photo | relative_url }}" alt="{{ speaker.name }}" />
+                        {% else %}
+                          <span class="schedule-person-initials" aria-hidden="true">{{ speaker.initials }}</span>
+                        {% endif %}
+                        <span class="schedule-person-copy">
+                          {% if matched_profile_url and matched_profile_url != "" %}
+                            <a class="schedule-person-name" href="{{ matched_profile_url }}" target="_blank" rel="noopener">{{ speaker.name }}</a>
+                          {% else %}
+                            <strong class="schedule-person-name">{{ speaker.name }}</strong>
+                          {% endif %}
+                          <span>{{ speaker.org }}</span>
+                        </span>
+                      </div>
+                    {% endif %}
+                  {% endunless %}
+                {% endfor %}
+              </div>
+              {% if session_type == "panel" and item.description %}
+                <p class="schedule-note">{{ item.description }}</p>
+              {% endif %}
+            {% elsif has_description %}
+              <p>{{ item.description }}</p>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </section>

@@ -1,6 +1,13 @@
+- date: "2026-05-07"
+  title: "Program schedule published"
+  description: "GRAIL-V will run on June 3, 2026 from 7:30 AM to 12:30 PM local time, with keynotes, paper presentations, posters, and an industry panel."
+  link:
+    label: "View program"
+    href: "/program/"
+  publish: true
 - date: "2026-04-15"
-  title: "Workshop day confirmed for June 3 at 8:00 AM"
-  description: "GRAIL-V will run on June 3, 2026 in Denver, with the half-day program starting at 8:00 AM local time."
+  title: "Workshop day confirmed for June 3"
+  description: "GRAIL-V will run on June 3, 2026 in Denver."
   link:
     label: "View program"
     href: "/program/"
