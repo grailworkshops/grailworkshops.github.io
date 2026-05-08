@@ -9,7 +9,7 @@ Jekyll + GitHub Pages site for the GRAIL workshop series, currently `GRAIL-V @ C
 - Public site URL: `https://grailworkshops.github.io/`
 - Local dev command: `bundle exec jekyll serve --config _config.yml,_config.dev.yml --port 4001`
 - Latest public submission deadline is **March 8, 2026 (AoE)**.
-- Workshop schedule is now confirmed for **June 3, 2026 from 7:30 AM to 12:30 PM local time** in Denver.
+- Workshop schedule is now confirmed for **June 3, 2026 from 7:30 AM to 12:30 PM local time** in **Hall 506, Denver**.
 - Repo deploys through GitHub Actions workflow `.github/workflows/jekyll-gh-pages.yml` on pushes to `main`.
 
 ## Key Locations
@@ -38,6 +38,7 @@ Jekyll + GitHub Pages site for the GRAIL workshop series, currently `GRAIL-V @ C
 - Researched public CVPR 2026 workshop schedules in late Apr 2026: the official CVPR workshops page lists 148 accepted workshops, but its Day/Time/Room columns were still blank in the HTML at the time checked. Public workshop sites show a common June 3 AM half-day pattern of roughly **8:00/8:30 AM to 12:30/1:00 PM**, with opening remarks, 25-45 minute invited talks, contributed orals/spotlights, a coffee/poster block around 10:00 AM, and closing/awards near lunch. GRAIL-V now uses a **7:30 AM-12:30 PM** confirmed program.
 - Current public program: opening remarks; keynotes by Dan Roth, Kristen Grauman, Scott Wen-tau Yih, and Mohit Bansal; 8:45-9:00 AM coffee break; 10:00-11:00 AM coffee/poster session; 11:00-11:15 AM paper presentation; 11:15 AM-12:15 PM industry panel moderated by Sujith Ravi with panelists Vijay Krishnan, Kenneth Marino, and Ming-Hsuan Yang; closing remarks.
 - After submissions closed, shifted the home page from submission-first to schedule-first: top announcement says **Schedule released**, hero CTA is **View Schedule**, the agenda appears immediately after the hero, and the submission summary is no longer shown on the home page.
+- The schedule announcement pill links directly to `/program/#program`, and attendee-facing logistics now identify **Hall 506, Denver** across the hero, Program page, Venue, FAQ, Updates, dates, and event metadata.
 - Agenda presentation is now a premium single-track "run of show" timeline: flat warm charcoal/orange confirmed-program header and panel treatment, compact workshop summary chips, continuous time rail, highlighted keynote/poster/panel rows, and linked speaker mini-profiles with photos where schedule descriptions match `_data/speakers.yml`. Paper presentation rows intentionally omit `x1`/`x2` details.
 - Added Kenneth Marino and Ming-Hsuan Yang as visible panelist speaker cards with local headshots and homepage/Google Scholar links. Sujith Ravi's visible affiliation is **VP, Oracle AI**.
 - Replaced Kenneth Marino's headshot with the user-provided `KennethMarinoHeadshot.jpg`, resized for the web at `assets/people/kenneth_marino.jpg`.
@@ -56,8 +57,9 @@ Jekyll + GitHub Pages site for the GRAIL workshop series, currently `GRAIL-V @ C
   - Repeatedly used; passing after recent deadline, speaker, and Safari changes.
   - Passing after the premium agenda/timeline redesign.
   - Passing after the warm agenda palette and linked speaker mini-profile update.
-  - Passing after adding Kenneth Marino and Ming-Hsuan Yang, updating the panel row, and changing the agenda meta label to **10 agenda items**.
+  - Passing after adding Kenneth Marino and Ming-Hsuan Yang, updating the panel row, and refining agenda meta labels.
   - Passing after replacing Kenneth Marino's headshot.
+  - Passing after making the schedule announcement pill link to Program and adding Hall 506 logistics.
 - `bundle exec jekyll serve --config _config.yml,_config.dev.yml --port 4001`
   - Used for local validation; current convention is port `4001`.
 

@@ -71,12 +71,27 @@ img {
 }
 
 .pill {
+  display: inline-flex;
+  align-items: center;
   background: var(--accent);
   color: #fff;
   padding: 4px 10px;
   border-radius: 999px;
   font-weight: 600;
   letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: transform 180ms ease, background 180ms ease, box-shadow 180ms ease;
+}
+
+a.pill:hover {
+  background: #b34d1e;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(179, 77, 30, 0.24);
+}
+
+a.pill:focus-visible {
+  outline: 2px solid #f9f6f0;
+  outline-offset: 3px;
 }
 
 .site-header {

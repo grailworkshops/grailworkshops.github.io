@@ -1,6 +1,18 @@
 <div class="announcement">
   {% if site.data.site.announcement.pill and site.data.site.announcement.pill != "" %}
-    <span class="pill">{{ site.data.site.announcement.pill }}</span>
+    {% assign announcement_href = site.data.site.announcement.href | default: "" %}
+    {% if announcement_href != "" %}
+      {% assign announcement_href_first = announcement_href | slice: 0, 1 %}
+      {% if announcement_href contains "http://" or announcement_href contains "https://" or announcement_href contains "mailto:" %}
+        <a class="pill" href="{{ announcement_href }}">{{ site.data.site.announcement.pill }}</a>
+      {% elsif announcement_href_first == "#" %}
+        <a class="pill" href="{{ announcement_href }}">{{ site.data.site.announcement.pill }}</a>
+      {% else %}
+        <a class="pill" href="{{ announcement_href | relative_url }}">{{ site.data.site.announcement.pill }}</a>
+      {% endif %}
+    {% else %}
+      <span class="pill">{{ site.data.site.announcement.pill }}</span>
+    {% endif %}
   {% endif %}
   <span>{{ site.data.site.announcement.text }}</span>
 </div>
