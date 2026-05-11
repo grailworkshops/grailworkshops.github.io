@@ -1237,11 +1237,11 @@ body.no-scroll {
   font-size: 0.95rem;
 }
 
-.schedule-item--keynote::before {
+.schedule-item--invited::before {
   background: #d56a42;
 }
 
-.schedule-item--keynote .schedule-marker::after {
+.schedule-item--invited .schedule-marker::after {
   background: #d56a42;
   box-shadow: 0 0 0 5px rgba(213, 106, 66, 0.16);
 }

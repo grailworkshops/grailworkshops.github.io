@@ -15,8 +15,8 @@
       {% for item in site.data.program %}
         {% assign title_down = item.title | downcase %}
         {% assign session_type = "session" %}
-        {% if title_down contains "keynote" %}
-          {% assign session_type = "keynote" %}
+        {% if title_down contains "invited talk" %}
+          {% assign session_type = "invited" %}
         {% elsif title_down contains "coffee" %}
           {% assign session_type = "break" %}
         {% elsif title_down contains "poster" %}

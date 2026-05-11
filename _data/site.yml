@@ -80,7 +80,7 @@ hero:
     - value: "Jun 3"
       label: "7:30 AM-12:30 PM · Hall 506 · Denver"
       href: "/program/#program"
-    - value: "4 keynotes"
+    - value: "4 invited talks"
       label: "Dan Roth · Kristen Grauman · Scott Wen-tau Yih · Mohit Bansal"
       href: "/speakers/#speakers"
     - value: "10:00 AM"
