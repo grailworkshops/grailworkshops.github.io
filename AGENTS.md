@@ -2,6 +2,12 @@
 
 This repository is a **Jekyll + GitHub Pages** website for the GRAIL workshop series (e.g., “GRAIL‑V @ CVPR 2026”). Most edits should be made in data files and Markdown, not HTML.
 
+## Session Memory
+
+- Read `PROJECT_MEMORY.md` at the start of each task before making changes.
+- Update `PROJECT_MEMORY.md` after significant progress, shipped changes, workflow discoveries, or important decisions.
+- Keep memory practical and current; do not replace stronger repo-specific guidance in this file.
+
 ## Project Structure & Module Organization
 
 - `_data/`: Primary content sources (YAML). Example: `_data/site.yml`, `_data/speakers.yml`, `_data/organizers.yml`.
