@@ -220,3 +220,19 @@
   bio: "Holds a PhD from UC San Diego and works on NL2SQL, enterprise analytics, and robust reasoning across structured and unstructured data. Served as SRW Chair for EACL 2026, where the workshop expanded submissions, mentorship, and reviewer participation."
   photo: "/assets/people/ashish_somayajula.jpeg"
   publish: true
+- name: "Bhargava Kumar"
+  affiliation: "TD Securities"
+  focus: "AI Strategy, Agentic Workflows & Financial Markets"
+  bio: "Director at TD Securities, where he leads the AI Practice and supports AI strategy to production delivery for financial markets. He is currently focused on building agentic solutions to support business workflows across the firm. He has co-authored papers at ICLR, ICML, and ACL, among others, and reviews for major ML and NLP conferences. He holds an MS in Operations Research from Columbia University."
+  photo: "/assets/people/bhargava-kumar.jpeg"
+  publish: true
+  links:
+    linkedin: "https://www.linkedin.com/in/bhargava-kumar"
+- name: "Tejaswini Kumar"
+  affiliation: "Apple"
+  focus: "Applied AI, Generative AI & Agentic Systems"
+  bio: "Senior Engineering Program Manager at Apple with a strong interest in applied AI, particularly generative AI and agentic systems. Her published research appears at ACL, NAACL, and AACL, among other venues. She holds an MS from the Industrial Engineering and Operations Research (IEOR) department at Columbia University."
+  photo: "/assets/people/tejaswini-kumar.jpeg"
+  publish: true
+  links:
+    linkedin: "https://www.linkedin.com/in/tejaswini-kumar"

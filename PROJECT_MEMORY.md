@@ -33,6 +33,7 @@ Jekyll + GitHub Pages site for the GRAIL workshop series, currently `GRAIL-V @ C
 - Added Safari-safe strike-through behavior for deadline display.
 - Added Vijay Krishnan as a visible speaker/panelist with local headshot `assets/people/vijay_krishnan.jpeg`.
 - Added several program committee members including Bronson Bakunga, Dr. Pao-Ann Hsiung, and Ashish Somayajula.
+- Added Bhargava Kumar and Tejaswini Kumar to the visible Program Committee, mirroring their SurgeLLM committee entries with local headshots; they are intentionally placed at the end of the committee list.
 - Karan Dua is currently in **Program Committee** as the first visible member, not in Organizers.
 - Updated the workshop day across hero, venue, dates, schema metadata, and program schedule to the confirmed **June 3, 2026 7:30 AM-12:30 PM** program.
 - Researched public CVPR 2026 workshop schedules in late Apr 2026: the official CVPR workshops page lists 148 accepted workshops, but its Day/Time/Room columns were still blank in the HTML at the time checked. Public workshop sites show a common June 3 AM half-day pattern of roughly **8:00/8:30 AM to 12:30/1:00 PM**, with opening remarks, 25-45 minute invited talks, contributed orals/spotlights, a coffee/poster block around 10:00 AM, and closing/awards near lunch. GRAIL-V now uses a **7:30 AM-12:30 PM** confirmed program.
