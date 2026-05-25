@@ -10,10 +10,11 @@ permalink: /program/
     <h2>Workshop Format</h2>
   </div>
   <p class="lead">
-    A half-day program confirmed for June 3, 2026 from 7:30 AM to 12:30 PM local time in Hall 506, with invited talks, paper presentations, posters, and an industry panel focused on grounded evidence in agentic vision.
+    A half-day program confirmed for June 3, 2026 from 7:30 AM to 12:30 PM local time in Room 506, with invited talks, paper presentations, posters, and an industry panel focused on grounded evidence in agentic vision.
     The schedule below is the current program.
   </p>
   <div class="quick-links" aria-label="People and committees">
+    <a class="chip" href="{{ '/papers/' | relative_url }}">Accepted papers</a>
     <a class="chip" href="{{ '/speakers/#speakers' | relative_url }}">Speakers</a>
     <a class="chip" href="{{ '/speakers/#organizers' | relative_url }}">Organizers</a>
     <a class="chip" href="{{ '/speakers/#committee' | relative_url }}">Program committee</a>

@@ -1,0 +1,364 @@
+---
+- number: 4
+  title: 'CompAgent: An Agentic Framework for Visual Compliance Verification'
+  authors:
+  - Rahul Ghosh
+  - Baishali Chaudhury
+  - Hari Prasanna Das
+  - Meghana Ashok
+  - Ryan Razkenari
+  - Long Chen
+  - Sungmin Hong
+  - Chun-Hao Liu
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=n07g3YEsE4
+- number: 5
+  title: A Sanity Check on Composed Image Retrieval
+  authors:
+  - Yikun Liu
+  - Jiangchao Yao
+  - Weidi Xie
+  - Yanfeng Wang
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=b7dsKD8mSM
+- number: 7
+  title: 'Emotional Vocabulary as Semantic Grounding: How Language Register Affects
+    Diffusion Efficiency in Video Generation'
+  authors:
+  - Scott Boudreaux
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=pXjE6Tqp70
+- number: 9
+  title: 'EFSA: Episodic Few-Shot Adaptation for Text-to-Image Retrieval'
+  authors:
+  - Muhammad Huzaifa
+  - Yova Kementchedjhieva
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=vCMCd0BGjY
+- number: 10
+  title: 'ViSS-R1: Self-Supervised Reinforcement Video Reasoning'
+  authors:
+  - Bo Fang
+  - YuXin Song
+  - Haoyuan Sun
+  - Xinyao Zhang
+  - Qiangqiang Wu
+  - Wenhao Wu
+  - Antoni B. Chan
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=DFILDr7dIQ
+- number: 11
+  title: 'HIVE: Query, Hypothesize, Verify — A LLM Framework for Multimodal Reasoning-Intensive
+    Retrieval'
+  authors:
+  - Mahmoud Abdalla
+  - Mahmoud SalahEldin Kasem
+  - Mohamed Mahmoud
+  - Mostafa Farouk Senussi
+  - Abdelrahman Abdallah
+  - Hyun Soo Kang
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=YdwP5cKCTP
+- number: 12
+  title: 'MentalBlackboard: Evaluating Spatial Visualization via Mathematical Transformations'
+  authors:
+  - Nilay Yilmaz
+  - Maitreya Patel
+  - Naga Sai Abhiram kusumba
+  - Yixuan He
+  - Yezhou Yang
+  submission_type: Non-archival submission
+  url: https://openreview.net/forum?id=ktbFWAcDW5
+- number: 13
+  title: 'RePlan-Bot: Multi-Level Replanning for Embodied Instruction Following'
+  authors:
+  - Xicheng Gong
+  - Guozheng Sun
+  - Peiran Xu
+  - Yadong MU
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=csDEmI8Rd4
+- number: 20
+  title: Towards Context-Aware Image Anonymization with Multi-Agent Reasoning
+  authors:
+  - Robert Aufschläger
+  - Jakob Folz
+  - Gautam Savaliya
+  - Manjitha D Vidanalage
+  - Michael Heigl
+  - Martin Schramm
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=T10wqxYaMi
+- number: 21
+  title: 'CoCoA-DVC: Consistency and Concept Aware Training for Dense Video Captioning'
+  authors:
+  - Jay Nitin Paranjape
+  - Yue Guo
+  - sankar venkataraman
+  - Vishal M. Patel
+  - Nataraj Jammalamadaka
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=nQafXkE7p7
+- number: 23
+  title: 'DualProc: Dual-Process Prompting Reduces Confident Errors in Vision-Language
+    Models for Grounded Retrieval and Agentic Pipelines'
+  authors:
+  - Aayam Bansal
+  - Ishaan Gangwani
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=i87UnYSaFm
+- number: 24
+  title: 'CropVLM: Learning to Zoom for Fine-Grained Vision-Language Perception'
+  authors:
+  - Miguel Carvalho
+  - Helder Dias
+  - Bruno Martins
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=1DwW2XFdQB
+- number: 27
+  title: 'BRIDGE: Multimodal-to-Text Retrieval via Reinforcement-Learned Query Alignment'
+  authors:
+  - Mohamed Darwish Mounis
+  - Mohamed Mahmoud
+  - Shaimaa Sedek
+  - Mahmoud Abdalla
+  - Mahmoud SalahEldin Kasem
+  - Abdelrahman Abdallah
+  - Hyun Soo Kang
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=hp7kbf8cxQ
+- number: 29
+  title: 'Memory in Multimodal AI Agents: Hardware-Software Co-Design for KV Caches,
+    Attention IO, and Retrieval Stores'
+  authors:
+  - Shubham Khandelwal
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=njcvAfwpG1
+- number: 30
+  title: 'ChatUMM: Robust Context Tracking for Conversational Interleaved Generation'
+  authors:
+  - Wenxun Dai
+  - Zhiyuan Zhao
+  - Yule Zhong
+  - Yiji Cheng
+  - Jian-Wei Zhang
+  - LinqingWang
+  - Shiyi Zhang
+  - Yunlong Lin
+  - Runze He
+  - Fellix Song
+  - Wayne Zhuang
+  - Yong Liu
+  - Haoji Zhang
+  - Yansong Tang
+  - Chunyu Wang
+  submission_type: Short paper
+  url: https://openreview.net/forum?id=XYpSxQEO4w
+- number: 31
+  title: Gaze-Regularized Vision-Language-Action Models for Robotic Manipulation
+  authors:
+  - Anupam Pani
+  - Yanchao Yang
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=8GvptSYsk0
+- number: 33
+  title: 'WIST: Web-Grounded Iterative Self-Play Tree for Domain-Targeted Reasoning
+    Improvement'
+  authors:
+  - Fangyuan Li
+  - Pengfei Li
+  - Shijie Wang
+  - Junqi Gao
+  - Jianxing Liu
+  - Biqing Qi
+  - Yuqiang Li
+  submission_type: Non-archival submission
+  url: https://openreview.net/forum?id=zDQH21AJ4f
+- number: 35
+  title: 'Investigating VLM Hallucination from a Cognitive Psychology Perspective:
+    A First Step Toward Interpretation with Intriguing Observations'
+  authors:
+  - Xiangrui Liu
+  - Man Luo
+  - Agneet Chatterjee
+  - Hua Wei
+  - Chitta Baral
+  - Yezhou Yang
+  submission_type: Non-archival submission
+  url: https://openreview.net/forum?id=bxHNAy5IYu
+- number: 36
+  title: 'HTEF: Holistic Brand-Theme Alignment Scoring as a Catalog Gate for Grounded
+    Conversational Recommendation'
+  authors:
+  - Md Mahmudur Rahman
+  - Dhruv Garg
+  - Rishabh Rathod
+  - Sanket Bindle
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=GXe52GvgVk
+- number: 40
+  title: The Race between Agentic AI Capabilities and Data Quality Control in Online
+    Surveys
+  authors:
+  - Sourav Panda
+  - Hillmer Chona
+  - Rupak Kumar Das
+  - Shreyash Kale
+  - Shikha Soneji
+  - Jonathan Dodge
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=NzUdo4qGGX
+- number: 43
+  title: Evaluating Reasoning Fidelity in Visual Text Generation
+  authors:
+  - Jiajun Hong
+  - Jiawei Zhou
+  submission_type: Non-archival submission
+  url: https://openreview.net/forum?id=DRTUoG1qvw
+- number: 46
+  title: Lightweight and Production-Ready PDF Visual Element Parsing
+  authors:
+  - Meizhu Liu
+  - Yassi Abbasi
+  - Matthew Rowe
+  - M. Avendi
+  - Paul Li
+  submission_type: Non-archival submission
+  url: https://openreview.net/forum?id=zag9nifpBC
+- number: 51
+  title: 'M3Grounder: Mask-Based Multi-Span and Multi-Granular Grounding for Document
+    QA'
+  authors:
+  - Venkata Kesav Venna
+  - Sai Madhusudan Gunda
+  - Jyothi Swaroopa Jinka
+  - Hrithik Sagar Rachakonda
+  - Anirudh Srinivasan
+  - Ravi Kiran Sarvadevabhatla
+  submission_type: Non-archival submission
+  url: https://openreview.net/forum?id=TKV18xExQn
+- number: 52
+  title: SHOE - Semantic HOI Open-vocabulary Evaluation metric
+  authors:
+  - Maja Noack
+  - Qinqian Lei
+  - Taipeng Tian
+  - Bihan Dong
+  - Robby T. Tan
+  - Yixin Chen
+  - John Young
+  - Saijun Zhang
+  - Bo Wang
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=3LS7Vk2vBd
+- number: 53
+  title: 'RAGENT: Robust Optimization for Grounded Vision-Language Retrieval'
+  authors:
+  - Kathy Wu
+  - Sarthak Srivastava
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=w7YOfUyPkK
+- number: 55
+  title: Learning to Mix Flat and Curved Representations for Vision-Language Retrieval
+  authors:
+  - Kathy Wu
+  - Sarthak Srivastava
+  submission_type: Short paper
+  url: https://openreview.net/forum?id=ztpX399vZr
+- number: 56
+  title: Neural-Symbolic Intention Refinement with User Feedback for Text-to-Image
+    Retrieval
+  authors:
+  - BAI YU
+  - Lei Zhang
+  - Xiaoyan Hu
+  - Feng Zhu
+  - Rui Zhao
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=3ndB8Zo6iB
+- number: 59
+  title: Knowledge or Action? Automation Boundary Prediction with Intent Discovery
+    and Knowledge Use-Case Enablement for Agentic Enterprise Support
+  authors:
+  - Kumar Mayank
+  - Ipseeta Sahu
+  - Sajeetha Jaganathan
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=DDMaarfMHG
+- number: 61
+  title: 'Negation Matters: Training-Free Negation-Aware Image Retrieval'
+  authors:
+  - Aashish Pokhrel
+  - Shivanand Venkanna Sheshappanavar
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=Ht5NSmbmfs
+- number: 63
+  title: 'Seeing without Looking: Do Vision-Language Benchmarks Really Test Vision?'
+  authors:
+  - Zixuan Lan
+  - Luzhe Sun
+  - Matthew Walter
+  - Jiawei Zhou
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=BBnoQFzIQi
+- number: 64
+  title: 'CMAG: Concept-Scaffolded Retrieval for Marketplace Avatar Generation'
+  authors:
+  - Rajeev Goel
+  - Jason Ding
+  - Phani Harish Wajjala
+  - Pavan K. Turaga
+  - Tejaswi Gowda
+  - Krishna C. Garikipati
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=noEvda9nW2
+- number: 65
+  title: A Multi-Agent Framework for Grounding Medical AI in Expert Clinical Knowledge
+    under Domain Shift
+  authors:
+  - Midhat Urooj
+  - Ayan Banerjee
+  - Sandeep Gupta
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=ysuWz3RG10
+- number: 68
+  title: 'SlotVTG: Object-Centric Adapter for Generalizable Video Temporal Grounding'
+  authors:
+  - Jiwook Han
+  - Geo Ahn
+  - Youngrae Kim
+  - Jinwoo Choi
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=xF0PTmYokJ
+- number: 70
+  title: Towards Robust Zero-Shot Video Temporal Grounding
+  authors:
+  - Nutthadech Banditakkarakul
+  - Bo Chen
+  - Stephen Gould
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=9zedQ1m6xV
+- number: 71
+  title: AgenticRAG-Driven Floorplan Parsing for Assistive Indoor Navigation for Blind
+    and Low-Vision Users
+  authors:
+  - Aydin Ayanzadeh
+  - Tim Oates
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=HQFFv99DbQ
+- number: 72
+  title: 'EVICT: Evidence-Sufficiency Verification via Counterfactual Dropout for
+    Visually-Grounded Selective Question Answering'
+  authors:
+  - Varun Kotte
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=Zmot7bSmFQ
+- number: 73
+  title: 'CALIBRA: Calibration-Aware Multi-Agent Verification for Contactless Physiological
+    Monitoring'
+  authors:
+  - Shadman Sakib
+  - Gaurav Shinde
+  - Nirmalya Roy
+  submission_type: Long paper
+  url: https://openreview.net/forum?id=huA9vDFY9J

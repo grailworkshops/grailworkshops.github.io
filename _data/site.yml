@@ -1,7 +1,7 @@
 announcement:
   pill: "Schedule released"
   href: "/program/#program"
-  text: "Program schedule released for Jun 3, 2026, 7:30 AM-12:30 PM in Hall 506, Denver."
+  text: "Program schedule released for Jun 3, 2026, 7:30 AM-12:30 PM in Room 506, Denver."
 contact_email: "grailworkshops@googlegroups.com"
 brand:
   name: "GRAIL-V"
@@ -59,7 +59,7 @@ seo:
     - "grounded AI"
   event_start: "2026-06-03T07:30:00-06:00"
   event_end: "2026-06-03T12:30:00-06:00"
-  event_location: "Hall 506, Denver, CO, USA"
+  event_location: "Room 506, Denver, CO, USA"
 hero:
   # eyebrow: "Grounded Retrieval and Agentic Intelligence for Vision-Language"
   # title: "Grounded evidence for vision-language agents"
@@ -78,7 +78,7 @@ hero:
       style: "ghost"
   metrics:
     - value: "Jun 3"
-      label: "7:30 AM-12:30 PM · Hall 506 · Denver"
+      label: "7:30 AM-12:30 PM · Room 506 · Denver"
       href: "/program/#program"
     - value: "4 invited talks"
       label: "Dan Roth · Kristen Grauman · Scott Wen-tau Yih · Mohit Bansal"
@@ -86,8 +86,8 @@ hero:
     - value: "10:00 AM"
       label: "Coffee Break & Poster Session"
       href: "/program/#program"
-    - value: "11:15 AM"
-      label: "Industry panel moderated by Sujith Ravi"
+    - value: "1 industry panel"
+      label: "11:15 AM-12:15 PM · Moderated by Sujith Ravi"
       href: "/program/#program"
   countdowns:
     - label: "Workshop starts"

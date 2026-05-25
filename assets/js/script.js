@@ -294,6 +294,32 @@ document.querySelectorAll('.profile-card[data-profile]').forEach((card) => {
   });
 });
 
+/* ===== Paper Filters ===== */
+
+const paperFilters = document.querySelectorAll('[data-paper-filter]');
+const paperItems = document.querySelectorAll('[data-paper-type]');
+
+if (paperFilters.length && paperItems.length) {
+  const applyPaperFilter = (filterValue) => {
+    paperFilters.forEach((button) => {
+      const isActive = button.dataset.paperFilter === filterValue;
+      button.classList.toggle('is-active', isActive);
+      button.setAttribute('aria-pressed', String(isActive));
+    });
+
+    paperItems.forEach((item) => {
+      const matches = filterValue === 'all' || item.dataset.paperType === filterValue;
+      item.hidden = !matches;
+    });
+  };
+
+  paperFilters.forEach((button) => {
+    button.addEventListener('click', () => {
+      applyPaperFilter(button.dataset.paperFilter || 'all');
+    });
+  });
+}
+
 /* ===== Countdown Timers ===== */
 
 const countdownTargets = {

@@ -83,15 +83,15 @@
     scholar: "https://scholar.google.com/citations?hl=en&user=8rDNIMsAAAAJ"
     linkedin: "https://www.linkedin.com/in/scottyih/"
 - name: "Sujith Ravi"
-  org: "VP, Oracle AI"
+  org: "GVP, Oracle AI"
   focus: "Enterprise GenAI, agentic systems, and reliable deployment."
-  bio: "Vice President of GenAI at Oracle and former founder of SliceX AI, leading frontier models and agentic systems for enterprise reliability, safety, and large‑scale deployment."
+  bio: "Group Vice President of GenAI at Oracle and former founder of SliceX AI, leading frontier models and agentic systems for enterprise reliability, safety, and large‑scale deployment."
   initials: "SR"
   publish: true
   profile: ""
   photo: "/assets/people/sujith_ravi.png"
   links:
-    home: "https://www.sravi.org"
+    home: ""
     scholar: "https://scholar.google.com/citations?user=sM-dHicAAAAJ&hl=en&oi=ao"
     linkedin: "https://www.linkedin.com/in/sujithravi/"
 
@@ -138,7 +138,7 @@
   name: "More to be announced"
   org: "Leaders from Industry & Academia"
   focus: ""
-  publish: true
+  publish: false
 
 - type: "panel"
   name: "Panel"
