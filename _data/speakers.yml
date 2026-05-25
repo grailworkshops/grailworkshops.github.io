@@ -88,7 +88,7 @@
   bio: "Group Vice President of GenAI at Oracle and former founder of SliceX AI, leading frontier models and agentic systems for enterprise reliability, safety, and large‑scale deployment."
   initials: "SR"
   publish: true
-  profile: ""
+  profile: "https://www.linkedin.com/in/sujithravi/"
   photo: "/assets/people/sujith_ravi.png"
   links:
     home: ""
@@ -119,7 +119,7 @@
   links:
     home: "https://kennethmarino.com/"
     scholar: "https://scholar.google.com/citations?user=6bQxCusAAAAJ&hl=en"
-    linkedin: ""
+    linkedin: "https://www.linkedin.com/in/kenneth-marino-75ab7a82"
 
 - name: "Ming-Hsuan Yang"
   org: "UC Merced / DeepMind"
@@ -132,7 +132,7 @@
   links:
     home: "https://faculty.ucmerced.edu/mhyang/"
     scholar: "https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=en"
-    linkedin: ""
+    linkedin: "https://www.linkedin.com/in/minghsuanyang"
 
 - type: "panel"
   name: "More to be announced"

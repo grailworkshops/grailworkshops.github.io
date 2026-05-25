@@ -60,6 +60,9 @@
                         {% assign speaker_name_down = speaker.name | downcase %}
                         {% if speaker_name_down == person_name_down %}
                           {% assign matched_profile_url = speaker.profile %}
+                          {% if session_type == "panel" and speaker.links and speaker.links.linkedin and speaker.links.linkedin != "" %}
+                            {% assign matched_profile_url = speaker.links.linkedin %}
+                          {% endif %}
                           {% if matched_profile_url == nil or matched_profile_url == "" %}
                             {% if speaker.links %}
                               {% if speaker.links.home and speaker.links.home != "" %}
