@@ -43,9 +43,9 @@
             <p>{{ member.affiliation }}</p>
           {% endif %}
           {% if member.bio and member.bio != "" %}
-            <span>{{ member.bio }}</span>
+            <span class="committee-bio">{{ member.bio }}</span>
           {% elsif member.focus %}
-            <span>{{ member.focus }}</span>
+            <span class="committee-bio">{{ member.focus }}</span>
           {% endif %}
           {% include profile-icons.html links=member.links %}
         </article>

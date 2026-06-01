@@ -1,3 +1,10 @@
+- date: "2026-06-01"
+  title: "Poster session location and boards posted"
+  description: "The poster session will run on June 3, 2026 from 10:00 AM to 11:00 AM local time in Exhibit Hall A, boards 188-207."
+  link:
+    label: "View program"
+    href: "/program/"
+  publish: true
 - date: "2026-05-07"
   title: "Program schedule published"
   description: "GRAIL-V will run in Room 506 on June 3, 2026 from 7:30 AM to 12:30 PM local time, with invited talks, paper presentations, posters, and an industry panel."

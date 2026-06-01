@@ -236,3 +236,81 @@
   publish: true
   links:
     linkedin: "https://www.linkedin.com/in/tejaswini-kumar"
+- name: "Eun Woo Im"
+  affiliation: "Arizona State University"
+  focus: "Multimodal Reasoning, Retrieval & Video Understanding"
+  bio: "Ph.D. student at ASU focused on multimodal reasoning, retrieval, and its application to video understanding."
+  photo: "/assets/people/eun-woo-im.jpg"
+  publish: true
+  links:
+    home: "https://eunwooim.github.io/"
+    scholar: "https://scholar.google.com/citations?user=_IP4HfgAAAAJ&hl=en"
+    linkedin: "https://www.linkedin.com/in/eunwooim"
+- name: "Tampu Ravi Kumar"
+  affiliation: "Arizona State University"
+  focus: "Multimodal Reasoning, QA & Audio Reasoning"
+  bio: "Ph.D. student at ASU focused on multimodal reasoning, QA over structured and unstructured data, and speech disfluency and audio reasoning."
+  photo: "/assets/people/tampu-ravi-kumar.jpeg"
+  publish: true
+  links:
+    linkedin: "https://www.linkedin.com/in/tampuravi/"
+- name: "Manan Roy Choudhury"
+  affiliation: "Arizona State University"
+  focus: "LLM Reasoning, Planning & Robustness"
+  bio: "Ph.D. student at ASU focused on LLM reasoning and planning, anomaly and discrepancy detection, multi-modal robustness and perturbation analysis, and adversarial attacks in agentic frameworks."
+  photo: "/assets/people/manan-roy-choudhury.jpg"
+  publish: true
+  links:
+    linkedin: "https://www.linkedin.com/in/manan-roy-choudhury-2b2093208/"
+- name: "Tejas Anvekar"
+  affiliation: "Arizona State University"
+  focus: "Personalized & Trustworthy MLLM Evaluation"
+  bio: "Ph.D. student at ASU specializing in the personalized and trustworthy evaluation of MLLMs. Develops agent-driven, explainable frameworks to identify risks and bias across diverse tasks."
+  photo: "/assets/people/tejas-anvekar.jpg"
+  publish: true
+  links:
+    home: "https://tejasanvekar.github.io/"
+    scholar: "https://scholar.google.com/citations?user=nmHPl6QAAAAJ&hl=en"
+    linkedin: "https://www.linkedin.com/in/tejas-anvekar-b88b461a4/"
+- name: "Abhijit Chakraborty"
+  affiliation: "MongoDB / Arizona State University"
+  focus: "Knowledge Graph Embeddings, Federated RAG & Trustworthy Multi-agent AI"
+  bio: "Technical Sales Director for North America Solution Consulting at MongoDB and a Computer Science Ph.D. candidate at Arizona State University's CoRAL Lab, with nearly two decades of experience building data platforms and AI systems across Fortune 500 enterprises. His research spans knowledge graph embeddings, federated retrieval-augmented generation, and trustworthy multi-agent AI, with recent work submitted to venues like NeurIPS and EMNLP. He serves the community as a NeurIPS and EMNLP 2025 reviewer, a Harvard Business Review Board of Advisors member, and an open-source contributor for Apache."
+  photo: "/assets/people/abhijit-chakraborty.jpeg"
+  publish: true
+  links:
+    home: "https://abhijit85.github.io/"
+    scholar: "https://scholar.google.com/citations?hl=en&user=H_rluhMAAAAJ"
+    linkedin: "https://www.linkedin.com/in/abhijitchak/"
+- name: "Yash Shah"
+  affiliation: "JPGlobal / Arizona State University"
+  focus: "Diffusion Language Models, Federated RAG & Reliable Agentic AI"
+  bio: "Applied AI Intern at JPGlobal and an M.S. Computer Science thesis candidate at Arizona State University, working on scalable AI systems. His research spans diffusion language models, federated RAG, and reliable agentic AI systems, with work accepted at ACL and EACL."
+  photo: "/assets/people/yash-shah.jpeg"
+  publish: true
+  links:
+    linkedin: "https://www.linkedin.com/in/yash-shah-472033302"
+- name: "Ashish Raj Shekhar"
+  affiliation: "Arizona State University"
+  focus: "AI in Education, AI Safety & Multi-agent Systems"
+  bio: "M.S. Computer Science student at Arizona State University's CoRAL Lab, advised by Dr. Vivek Gupta. His research spans AI in education, AI safety, and multi-agent systems, with work accepted at EACL and ACL. He previously worked as a Data Engineer at Amazon and LendingKart."
+  photo: "/assets/people/ashish-raj-shekhar.jpeg"
+  publish: true
+  links:
+    linkedin: "https://in.linkedin.com/in/shekharashishraj"
+- name: "Shiven Agarwal"
+  affiliation: "Arizona State University"
+  focus: "Multi-agent systems, LLM evaluation and robustness, AI safety, and privacy-preserving machine learning."
+  bio: "Master's student in Computer Science at Arizona State University conducting research in the CoRAL Lab under Dr. Vivek Gupta. His work spans multi-agent systems, LLM evaluation and robustness, AI safety, and privacy-preserving machine learning, with a focus on taking research systems from paper to deployed product. He is the first author of GamED.AI, a multi-agent framework for automated educational game generation accepted to the ACL 2026 System Demonstrations track, and has additional work published at EACL 2026. Prior to graduate studies, he spent three years as a software engineer building healthcare technology platforms."
+  photo: "/assets/people/shiven-agarwal.jpeg"
+  publish: true
+  links:
+    linkedin: "https://www.linkedin.com/in/shiven-agarwal/"
+- name: "Adarsh Singh"
+  affiliation: "Arizona State University"
+  focus: "Information retrieval over structured data and retrieval-augmented question answering."
+  bio: "Specializing in Information Retrieval over structured data and retrieval-augmented question answering. Focuses on retrieval, reranking, and representation learning methods that enable robust and scalable reasoning over structured knowledge."
+  photo: "/assets/people/adarsh-singh.png"
+  publish: true
+  links:
+    linkedin: "https://www.linkedin.com/in/asing725/"

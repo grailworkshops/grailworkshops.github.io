@@ -131,11 +131,17 @@
                   {% endfor %}
                 {% endif %}
               </div>
+              {% if item.talk_title and item.talk_title != "" %}
+                <p class="schedule-talk-title">{{ item.talk_title }}</p>
+              {% endif %}
               {% if session_type == "panel" and item.description %}
                 <p class="schedule-note">{{ item.description }}</p>
               {% endif %}
             {% elsif has_description %}
               <p>{{ item.description }}</p>
+            {% endif %}
+            {% if item.highlight_note and item.highlight_note != "" %}
+              <p class="schedule-highlight-note"><strong>{{ item.highlight_note }}</strong></p>
             {% endif %}
           </div>
         </div>
