@@ -6,3 +6,8 @@ sponsors:
     link: "https://www.oracle.com/careers/opportunities/oracle-cloud-infrastructure/"
     logo: "/assets/sponsors/oracle.svg"
     alt: "Oracle"
+  - name: "Turing"
+    level: "Sponsor"
+    link: "https://www.turing.com/"
+    logo: "/assets/sponsors/turing.svg"
+    alt: "Turing"

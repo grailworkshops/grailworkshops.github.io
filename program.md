@@ -10,7 +10,7 @@ permalink: /program/
     <h2>Workshop Format</h2>
   </div>
   <p class="lead">
-    A half-day program confirmed for June 3, 2026 from 7:30 AM to 12:30 PM local time in Room 506, with invited talks, paper presentations, posters, and an industry panel focused on grounded evidence in agentic vision.
+    A half-day program confirmed for June 3, 2026 from 7:30 AM to 12:30 PM local time in Room 506, with invited talks, paper presentations, posters, and the industry panel "From Understanding to Action: Building the next AI frontier with Multimodal Agents, World Models, and Real-world Intelligence."
     The schedule below is the current program.
   </p>
   <div class="quick-links" aria-label="People and committees">

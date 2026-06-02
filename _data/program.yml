@@ -29,6 +29,7 @@
   description: ""
 - time: "11:15 AM - 12:15 PM"
   title: "Industry Panel"
+  talk_title: "From Understanding to Action: Building the next AI frontier with Multimodal Agents, World Models, and Real-world Intelligence"
   people:
     - "Sujith Ravi"
     - "Vijay Krishnan"

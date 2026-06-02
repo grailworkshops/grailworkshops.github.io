@@ -1,3 +1,10 @@
+- date: "2026-06-02"
+  title: "Best Paper awards to be announced during the workshop"
+  description: "Best Paper awards will be announced during the GRAIL-V workshop on June 3, 2026."
+  link:
+    label: "View program"
+    href: "/program/"
+  publish: true
 - date: "2026-06-01"
   title: "Poster session location and boards posted"
   description: "The poster session will run on June 3, 2026 from 10:00 AM to 11:00 AM local time in Exhibit Hall A, boards 188-207."

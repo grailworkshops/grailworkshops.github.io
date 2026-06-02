@@ -85,7 +85,7 @@
 - name: "Sujith Ravi"
   org: "GVP, Oracle AI"
   focus: "Enterprise GenAI, agentic systems, and reliable deployment."
-  bio: "Group Vice President of GenAI at Oracle and former founder of SliceX AI, leading frontier models and agentic systems for enterprise reliability, safety, and large‑scale deployment."
+  bio: "Group Vice President of GenAI at Oracle, former founder of SliceX AI and ex-Head of AI at Google AI and Amazon Alexa AI, currently leading frontier models and agentic systems for enterprise reliability, safety, and large‑scale deployment."
   initials: "SR"
   publish: true
   profile: "https://www.linkedin.com/in/sujithravi/"
@@ -142,6 +142,6 @@
 
 - type: "panel"
   name: "Panel"
-  org: "From Retrieval to Action: What Should Agentic Vision Systems Verify?"
+  org: "From Understanding to Action: Building the next AI frontier with Multimodal Agents, World Models, and Real-world Intelligence"
   focus: "Diverse perspectives across industry and academia."
   publish: true

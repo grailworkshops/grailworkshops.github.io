@@ -2019,6 +2019,10 @@ a.schedule-person-name:hover {
   align-self: center;
 }
 
+.footer-sponsor + .footer-sponsor {
+  margin-top: 10px;
+}
+
 .footer-sponsor {
   display: inline-flex;
   align-items: center;
