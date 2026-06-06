@@ -1,9 +1,9 @@
-- date: "2026-06-02"
-  title: "Best Paper awards to be announced during the workshop"
-  description: "Best Paper awards will be announced during the GRAIL-V workshop on June 3, 2026."
+- date: "2026-06-03"
+  title: "GRAIL-V Best Paper and Outstanding Paper announced"
+  description: "Congratulations to SHOE - Semantic HOI Open-vocabulary Evaluation metric, winner of the $2,000 Best Paper award, and HTEF: Holistic Brand-Theme Alignment Scoring as a Catalog Gate for Grounded Conversational Recommendation, winner of the $1,500 Outstanding Paper award."
   link:
-    label: "View program"
-    href: "/program/"
+    label: "View papers"
+    href: "/papers/"
   publish: true
 - date: "2026-06-01"
   title: "Poster session location and boards posted"

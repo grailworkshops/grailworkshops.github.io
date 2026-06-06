@@ -12,6 +12,7 @@
   - Chun-Hao Liu
   submission_type: Long paper
   url: https://openreview.net/forum?id=n07g3YEsE4
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Ghosh_CompAgent_An_Agentic_Framework_for_Visual_Compliance_Verification_CVPRW_2026_paper.html
 - number: 5
   title: A Sanity Check on Composed Image Retrieval
   authors:
@@ -21,6 +22,7 @@
   - Yanfeng Wang
   submission_type: Long paper
   url: https://openreview.net/forum?id=b7dsKD8mSM
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Liu_A_Sanity_Check_on_Composed_Image_Retrieval_CVPRW_2026_paper.html
 - number: 7
   title: 'Emotional Vocabulary as Semantic Grounding: How Language Register Affects
     Diffusion Efficiency in Video Generation'
@@ -28,6 +30,7 @@
   - Scott Boudreaux
   submission_type: Long paper
   url: https://openreview.net/forum?id=pXjE6Tqp70
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Boudreaux_Emotional_Vocabulary_as_Semantic_Grounding_How_Language_Register_Affects_Diffusion_CVPRW_2026_paper.html
 - number: 9
   title: 'EFSA: Episodic Few-Shot Adaptation for Text-to-Image Retrieval'
   authors:
@@ -35,6 +38,7 @@
   - Yova Kementchedjhieva
   submission_type: Long paper
   url: https://openreview.net/forum?id=vCMCd0BGjY
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Huzaifa_EFSA_Episodic_Few-Shot_Adaptation_for_Text-to-Image_Retrieval_CVPRW_2026_paper.html
 - number: 10
   title: 'ViSS-R1: Self-Supervised Reinforcement Video Reasoning'
   authors:
@@ -47,6 +51,7 @@
   - Antoni B. Chan
   submission_type: Long paper
   url: https://openreview.net/forum?id=DFILDr7dIQ
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Fang_ViSS-R1_Self-Supervised_Reinforcement_Video_Reasoning_CVPRW_2026_paper.html
 - number: 11
   title: 'HIVE: Query, Hypothesize, Verify — A LLM Framework for Multimodal Reasoning-Intensive
     Retrieval'
@@ -59,6 +64,7 @@
   - Hyun Soo Kang
   submission_type: Long paper
   url: https://openreview.net/forum?id=YdwP5cKCTP
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Abdalla_HIVE_Query_Hypothesize_Verify_--_A_LLM_Framework_for_Multimodal_CVPRW_2026_paper.html
 - number: 12
   title: 'MentalBlackboard: Evaluating Spatial Visualization via Mathematical Transformations'
   authors:
@@ -78,6 +84,7 @@
   - Yadong MU
   submission_type: Long paper
   url: https://openreview.net/forum?id=csDEmI8Rd4
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Gong_RePlan-Bot_Multi-Level_Replanning_for_Embodied_Instruction_Following_CVPRW_2026_paper.html
 - number: 20
   title: Towards Context-Aware Image Anonymization with Multi-Agent Reasoning
   authors:
@@ -89,6 +96,7 @@
   - Martin Schramm
   submission_type: Long paper
   url: https://openreview.net/forum?id=T10wqxYaMi
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Aufschlager_Towards_Context-Aware_Image_Anonymization_with_Multi-Agent_Reasoning_CVPRW_2026_paper.html
 - number: 21
   title: 'CoCoA-DVC: Consistency and Concept Aware Training for Dense Video Captioning'
   authors:
@@ -99,6 +107,7 @@
   - Nataraj Jammalamadaka
   submission_type: Long paper
   url: https://openreview.net/forum?id=nQafXkE7p7
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Paranjape_CoCoA-DVC_Consistency_and_Concept_Aware_Training_for_Dense_Video_Captioning_CVPRW_2026_paper.html
 - number: 23
   title: 'DualProc: Dual-Process Prompting Reduces Confident Errors in Vision-Language
     Models for Grounded Retrieval and Agentic Pipelines'
@@ -107,6 +116,7 @@
   - Ishaan Gangwani
   submission_type: Long paper
   url: https://openreview.net/forum?id=i87UnYSaFm
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Bansal_DualProc_Dual-Process_Prompting_Reduces_Confident_Errors_in_Vision-Language_Models_for_CVPRW_2026_paper.html
 - number: 24
   title: 'CropVLM: Learning to Zoom for Fine-Grained Vision-Language Perception'
   authors:
@@ -115,6 +125,7 @@
   - Bruno Martins
   submission_type: Long paper
   url: https://openreview.net/forum?id=1DwW2XFdQB
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Carvalho_CropVLM_Learning_to_Zoom_for_Fine-Grained_Vision-Language_Perception_CVPRW_2026_paper.html
 - number: 27
   title: 'BRIDGE: Multimodal-to-Text Retrieval via Reinforcement-Learned Query Alignment'
   authors:
@@ -127,6 +138,7 @@
   - Hyun Soo Kang
   submission_type: Long paper
   url: https://openreview.net/forum?id=hp7kbf8cxQ
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Mounis_BRIDGE_Multimodal-to-Text_Retrieval_via_Reinforcement-Learned_Query_Alignment_CVPRW_2026_paper.html
 - number: 29
   title: 'Memory in Multimodal AI Agents: Hardware-Software Co-Design for KV Caches,
     Attention IO, and Retrieval Stores'
@@ -154,6 +166,7 @@
   - Chunyu Wang
   submission_type: Short paper
   url: https://openreview.net/forum?id=XYpSxQEO4w
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Dai_ChatUMM_Robust_Context_Tracking_for_Conversational_Interleaved_Generation_CVPRW_2026_paper.html
 - number: 31
   title: Gaze-Regularized Vision-Language-Action Models for Robotic Manipulation
   authors:
@@ -161,6 +174,7 @@
   - Yanchao Yang
   submission_type: Long paper
   url: https://openreview.net/forum?id=8GvptSYsk0
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Pani_Gaze-Regularized_Vision-Language-Action_Models_for_Robotic_Manipulation_CVPRW_2026_paper.html
 - number: 33
   title: 'WIST: Web-Grounded Iterative Self-Play Tree for Domain-Targeted Reasoning
     Improvement'
@@ -186,6 +200,7 @@
   - Yezhou Yang
   submission_type: Non-archival submission
   url: https://openreview.net/forum?id=bxHNAy5IYu
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Liu_Investigating_VLM_Hallucination_from_a_Cognitive_Psychology_Perspective_A_First_CVPRW_2026_paper.html
 - number: 36
   title: 'HTEF: Holistic Brand-Theme Alignment Scoring as a Catalog Gate for Grounded
     Conversational Recommendation'
@@ -195,7 +210,10 @@
   - Rishabh Rathod
   - Sanket Bindle
   submission_type: Long paper
+  award: Outstanding Paper
+  award_prize: "$1,500"
   url: https://openreview.net/forum?id=GXe52GvgVk
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Rahman_HTEF_Holistic_Brand-Theme_Alignment_Scoring_as_a_Catalog_Gate_for_CVPRW_2026_paper.html
 - number: 40
   title: The Race between Agentic AI Capabilities and Data Quality Control in Online
     Surveys
@@ -225,6 +243,7 @@
   - Paul Li
   submission_type: Non-archival submission
   url: https://openreview.net/forum?id=zag9nifpBC
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Liu_Lightweight_and_Production-Ready_PDF_Visual_Element_Parsing_CVPRW_2026_paper.html
 - number: 51
   title: 'M3Grounder: Mask-Based Multi-Span and Multi-Granular Grounding for Document
     QA'
@@ -250,7 +269,10 @@
   - Saijun Zhang
   - Bo Wang
   submission_type: Long paper
+  award: Best Paper
+  award_prize: "$2,000"
   url: https://openreview.net/forum?id=3LS7Vk2vBd
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Noack_SHOE_-_Semantic_HOI_Open-vocabulary_Evaluation_metric_CVPRW_2026_paper.html
 - number: 53
   title: 'RAGENT: Robust Optimization for Grounded Vision-Language Retrieval'
   authors:
@@ -258,6 +280,7 @@
   - Sarthak Srivastava
   submission_type: Long paper
   url: https://openreview.net/forum?id=w7YOfUyPkK
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Srivastava_RAGENT_Robust_Optimization_for_Grounded_Vision-Language_Retrieval_CVPRW_2026_paper.html
 - number: 55
   title: Learning to Mix Flat and Curved Representations for Vision-Language Retrieval
   authors:
@@ -276,6 +299,7 @@
   - Rui Zhao
   submission_type: Long paper
   url: https://openreview.net/forum?id=3ndB8Zo6iB
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Bai_Neural-Symbolic_Intention_Refinement_with_User_Feedback_for_Text-to-Image_Retrieval_CVPRW_2026_paper.html
 - number: 59
   title: Knowledge or Action? Automation Boundary Prediction with Intent Discovery
     and Knowledge Use-Case Enablement for Agentic Enterprise Support
@@ -285,6 +309,7 @@
   - Sajeetha Jaganathan
   submission_type: Long paper
   url: https://openreview.net/forum?id=DDMaarfMHG
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Mayank_Knowledge_or_Action_Automation_Boundary_Prediction_with_Intent_Discovery_and_CVPRW_2026_paper.html
 - number: 61
   title: 'Negation Matters: Training-Free Negation-Aware Image Retrieval'
   authors:
@@ -292,6 +317,7 @@
   - Shivanand Venkanna Sheshappanavar
   submission_type: Long paper
   url: https://openreview.net/forum?id=Ht5NSmbmfs
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Pokhrel_Negation_Matters_Training-Free_Negation-Aware_Image_Retrieval_CVPRW_2026_paper.html
 - number: 63
   title: 'Seeing without Looking: Do Vision-Language Benchmarks Really Test Vision?'
   authors:
@@ -301,6 +327,7 @@
   - Jiawei Zhou
   submission_type: Long paper
   url: https://openreview.net/forum?id=BBnoQFzIQi
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Lan_Seeing_without_Looking_Do_Vision-Language_Benchmarks_Really_Test_Vision_CVPRW_2026_paper.html
 - number: 64
   title: 'CMAG: Concept-Scaffolded Retrieval for Marketplace Avatar Generation'
   authors:
@@ -312,6 +339,7 @@
   - Krishna C. Garikipati
   submission_type: Long paper
   url: https://openreview.net/forum?id=noEvda9nW2
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Goel_CMAG_Concept-Scaffolded_Retrieval_for_Marketplace_Avatar_Generation_CVPRW_2026_paper.html
 - number: 65
   title: A Multi-Agent Framework for Grounding Medical AI in Expert Clinical Knowledge
     under Domain Shift
@@ -321,6 +349,7 @@
   - Sandeep Gupta
   submission_type: Long paper
   url: https://openreview.net/forum?id=ysuWz3RG10
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Urooj_A_Multi-Agent_Framework_for_Grounding_Medical_AI_in_Expert_Clinical_CVPRW_2026_paper.html
 - number: 68
   title: 'SlotVTG: Object-Centric Adapter for Generalizable Video Temporal Grounding'
   authors:
@@ -330,6 +359,7 @@
   - Jinwoo Choi
   submission_type: Long paper
   url: https://openreview.net/forum?id=xF0PTmYokJ
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Han_SlotVTG_Object-Centric_Adapter_for_Generalizable_Video_Temporal_Grounding_CVPRW_2026_paper.html
 - number: 70
   title: Towards Robust Zero-Shot Video Temporal Grounding
   authors:
@@ -338,6 +368,7 @@
   - Stephen Gould
   submission_type: Long paper
   url: https://openreview.net/forum?id=9zedQ1m6xV
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Banditakkarakul_Towards_Robust_Zero-Shot_Video_Temporal_Grounding_CVPRW_2026_paper.html
 - number: 71
   title: AgenticRAG-Driven Floorplan Parsing for Assistive Indoor Navigation for Blind
     and Low-Vision Users
@@ -346,6 +377,7 @@
   - Tim Oates
   submission_type: Long paper
   url: https://openreview.net/forum?id=HQFFv99DbQ
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Ayanzadeh_LLM-Guided_Agentic_Floor_Plan_Parsing_for_Accessible_Indoor_Navigation_of_CVPRW_2026_paper.html
 - number: 72
   title: 'EVICT: Evidence-Sufficiency Verification via Counterfactual Dropout for
     Visually-Grounded Selective Question Answering'
@@ -353,6 +385,7 @@
   - Varun Kotte
   submission_type: Long paper
   url: https://openreview.net/forum?id=Zmot7bSmFQ
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Kotte_EVICT_Evidence-Sufficiency_Verification_via_Counterfactual_Dropout_for_Visually-Grounded_Selective_Question_CVPRW_2026_paper.html
 - number: 73
   title: 'CALIBRA: Calibration-Aware Multi-Agent Verification for Contactless Physiological
     Monitoring'
@@ -362,3 +395,4 @@
   - Nirmalya Roy
   submission_type: Long paper
   url: https://openreview.net/forum?id=huA9vDFY9J
+  cvf_url: https://openaccess.thecvf.com/content/CVPR2026W/GRAIL-V/html/Sakib_CALIBRA_Calibration-Aware_Multi-Agent_Verification_for_Contactless_Physiological_Monitoring_CVPRW_2026_paper.html

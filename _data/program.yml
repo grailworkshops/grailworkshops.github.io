@@ -5,6 +5,11 @@
   title: "Invited Talk 1"
   talk_title: "AI for Data and Data for AI"
   description: "Dan Roth (Oracle AI)"
+  resources:
+    - label: "Download slides"
+      format: "PPTX"
+      href: "/assets/slides/dan-roth-ai-for-data-and-data-for-ai-grail-v-2026.pptx"
+      download: true
 - time: "08:15 AM - 08:45 AM"
   title: "Invited Talk 2"
   talk_title: "Grounding Temporal Reasoning in Video Evidence"
@@ -16,6 +21,11 @@
   title: "Invited Talk 3"
   talk_title: "MetaCLIP: Open, Scalable Data Curation for Vision-Language Models"
   description: "Scott Wen-tau Yih (Meta)"
+  resources:
+    - label: "Download slides"
+      format: "PDF"
+      href: "/assets/slides/scott-yih-metaclip-grail-v-2026.pdf"
+      download: true
 - time: "09:30 AM - 10:00 AM"
   title: "Invited Talk 4"
   talk_title: "Long-Horizon Video Reasoning and Generation"

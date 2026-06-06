@@ -1394,6 +1394,44 @@ a.schedule-person-name:hover {
   font-size: 0.95rem;
 }
 
+.schedule-resources {
+  grid-column: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.schedule-resource {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 34px;
+  padding: 8px 12px;
+  border: 1px solid rgba(154, 67, 34, 0.26);
+  border-radius: 999px;
+  background: rgba(255, 247, 237, 0.92);
+  color: #9a4322;
+  font-size: 0.84rem;
+  font-weight: 900;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.schedule-resource:hover {
+  transform: translateY(-1px);
+  border-color: rgba(154, 67, 34, 0.52);
+  box-shadow: 0 8px 18px rgba(154, 67, 34, 0.12);
+}
+
+.schedule-resource span {
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+}
+
 .schedule-note {
   grid-column: 2;
   margin-top: 8px;
@@ -1658,7 +1696,8 @@ a.schedule-person-name:hover {
 
 .paper-filter,
 .paper-number,
-.paper-type {
+.paper-type,
+.paper-award {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1669,6 +1708,48 @@ a.schedule-person-name:hover {
   font-size: 0.82rem;
   font-weight: 800;
   line-height: 1.2;
+}
+
+.paper-awards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+  margin: 22px 0 24px;
+}
+
+.paper-award-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-height: 116px;
+  padding: 16px 18px;
+  border: 1px solid rgba(213, 106, 66, 0.28);
+  border-radius: 16px;
+  background: linear-gradient(135deg, #fff7ed 0%, #fff 48%, #eef8f5 100%);
+  color: var(--ink);
+  text-decoration: none;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.07);
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.paper-award-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(154, 67, 34, 0.44);
+  box-shadow: 0 16px 34px rgba(15, 23, 42, 0.1);
+}
+
+.paper-award-card span {
+  color: #9a4322;
+  font-size: 0.8rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.paper-award-card strong {
+  color: var(--ink);
+  font-size: 1rem;
+  line-height: 1.35;
 }
 
 .paper-filter {
@@ -1714,6 +1795,11 @@ a.schedule-person-name:hover {
   box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
 }
 
+.paper-item.has-award {
+  border-color: rgba(213, 106, 66, 0.32);
+  box-shadow: 0 12px 28px rgba(154, 67, 34, 0.09);
+}
+
 .paper-item[hidden] {
   display: none;
 }
@@ -1739,6 +1825,14 @@ a.schedule-person-name:hover {
   color: var(--ink-soft);
 }
 
+.paper-award {
+  min-height: 30px;
+  padding: 6px 10px;
+  color: #8a3b19;
+  background: #fff3db;
+  border-color: rgba(213, 106, 66, 0.36);
+}
+
 .paper-copy {
   min-width: 0;
 }
@@ -1755,6 +1849,13 @@ a.schedule-person-name:hover {
   color: var(--muted);
   font-size: 0.94rem;
   line-height: 1.45;
+}
+
+.paper-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
 }
 
 .paper-link {
@@ -1776,6 +1877,17 @@ a.schedule-person-name:hover {
   transform: translateY(-1px);
   border-color: rgba(154, 67, 34, 0.56);
   box-shadow: 0 8px 18px rgba(154, 67, 34, 0.12);
+}
+
+.paper-link.cvf-link {
+  border-color: rgba(23, 95, 87, 0.28);
+  color: #175f57;
+  background: #eef8f5;
+}
+
+.paper-link.cvf-link:hover {
+  border-color: rgba(23, 95, 87, 0.52);
+  box-shadow: 0 8px 18px rgba(23, 95, 87, 0.12);
 }
 
 .organizers {
@@ -2165,14 +2277,15 @@ a.schedule-person-name:hover {
 /* ===== Scroll Animations ===== */
 
 [data-animate] {
-  opacity: 0;
-  transform: translateY(18px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+  opacity: 1;
+  transform: none;
+  transition: none;
 }
 
 [data-animate].in-view {
   opacity: 1;
-  transform: translateY(0);
+  transform: none;
+  transition: none;
 }
 
 /* Stagger children */
@@ -2281,6 +2394,7 @@ a.schedule-person-name:hover {
 
   .schedule-talk-title,
   .schedule-highlight-note,
+  .schedule-resources,
   .schedule-note {
     grid-column: auto;
   }
@@ -2407,8 +2521,13 @@ a.schedule-person-name:hover {
     align-items: start;
   }
 
-  .paper-link {
+  .paper-links {
+    justify-content: stretch;
     width: 100%;
+  }
+
+  .paper-link {
+    flex: 1 1 160px;
   }
 
   .schedule-item {

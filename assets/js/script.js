@@ -229,19 +229,45 @@ if (searchOverlay && searchInput && searchResults) {
 
 const animatedElements = document.querySelectorAll('[data-animate]');
 if (animatedElements.length) {
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('in-view');
-          observer.unobserve(entry.target);
-        }
-      });
-    },
-    { threshold: 0.18 }
-  );
+  const revealAnimatedElement = (el) => {
+    el.classList.add('in-view');
+  };
 
-  animatedElements.forEach((el) => observer.observe(el));
+  const revealVisibleAnimatedElements = () => {
+    animatedElements.forEach((el) => {
+      if (el.classList.contains('in-view')) {
+        return;
+      }
+      const rect = el.getBoundingClientRect();
+      const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+      if (rect.top < viewportHeight * 0.98 && rect.bottom > 0) {
+        revealAnimatedElement(el);
+      }
+    });
+  };
+
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            revealAnimatedElement(entry.target);
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.01 }
+    );
+
+    animatedElements.forEach((el) => observer.observe(el));
+  } else {
+    animatedElements.forEach((el) => revealAnimatedElement(el));
+  }
+
+  revealVisibleAnimatedElements();
+  window.addEventListener('load', revealVisibleAnimatedElements, { once: true });
+  window.addEventListener('scroll', revealVisibleAnimatedElements, { passive: true });
+  window.addEventListener('resize', revealVisibleAnimatedElements);
 }
 
 /* ===== Stagger Animation ===== */

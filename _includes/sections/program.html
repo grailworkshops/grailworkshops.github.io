@@ -143,6 +143,26 @@
             {% if item.highlight_note and item.highlight_note != "" %}
               <p class="schedule-highlight-note"><strong>{{ item.highlight_note }}</strong></p>
             {% endif %}
+            {% if item.resources %}
+              <div class="schedule-resources" aria-label="{{ item.title }} resources">
+                {% for resource in item.resources %}
+                  {% if resource.href and resource.href != "" %}
+                    <a
+                      class="schedule-resource"
+                      href="{{ resource.href | relative_url }}"
+                      target="_blank"
+                      rel="noopener"
+                      {% if resource.download %}download{% endif %}
+                    >
+                      {{ resource.label | default: "Download" }}
+                      {% if resource.format and resource.format != "" %}
+                        <span>{{ resource.format }}</span>
+                      {% endif %}
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endif %}
           </div>
         </div>
       {% endfor %}
